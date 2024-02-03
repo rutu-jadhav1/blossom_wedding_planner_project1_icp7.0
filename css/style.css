@@ -1,4 +1,22 @@
-/* light-color: 	 #ccffff
-dark-color: #66ffff
-darker-color :  #006666  
+/* background color : #e4bdda;
+ heading-text-color:#4d001f;
+ Content-color:#b30047;
+ div-color:#c5a3d7;
+*/
+
+/* 
+html: <button class="btn">Submit</button>
+css: .btn{
+        height:21px;
+        border:none;
+        color:white;
+        background-color: #b30077;
+        box-shadow: 2px 2px 2px 0 #4d001f;
+    }
+    .btn:hover{
+        background-color:#ff4d94;
+        transition:2s;
+        border-radius:10px;
+    }
+
 */
