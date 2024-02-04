@@ -18,5 +18,32 @@ css: .btn{
         transition:2s;
         border-radius:10px;
     }
-
 */
+body{
+    background-color:#e4bdda;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c5a3d7;
+    height: 30px;
+    margin: 22px 22px ;
+    padding: 0px 20px 22px 16px;
+}
+.logo{
+    border-radius: 60%;
+}
+ul{
+    list-style: none; 
+}
+nav ul{
+    display: flex;
+    gap: 25px;   
+}
+.name{
+    color: #4d001f;
+}
+.nav-n{
+    text-decoration: none;
+    font-size: 20px;
+}
