@@ -3,6 +3,19 @@
  Content-color:#b30047;
  div-color:#c5a3d7;
 */
+/*
+    font style for heading tag: ex- about us,etc.
+    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+*/
+/*
+   font style for content: ex-description
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+   font-family: 'Playfair Display', serif;
+*/
+
 
 /* 
 html: <button class="btn">Submit</button>
