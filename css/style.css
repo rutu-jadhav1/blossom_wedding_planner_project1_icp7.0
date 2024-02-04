@@ -32,6 +32,7 @@ css: .btn{
         border-radius:10px;
     }
 */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body{
     background-color:#e4bdda;
 }
@@ -41,7 +42,7 @@ body{
     background-color: #c5a3d7;
     height: 30px;
     margin: 22px 22px ;
-    padding: 0px 20px 22px 16px;
+    padding: 0px 20px 22px 16px; 
 }
 .logo{
     border-radius: 60%;
@@ -59,4 +60,5 @@ nav ul{
 .nav-n{
     text-decoration: none;
     font-size: 20px;
+    font-family: 'Playfair Display', serif;
 }
