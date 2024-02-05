@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign_in Page</title>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/sign_in.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar">
+                <img src="../icon/logo.png" alt="Company logo" height="55px"/>
+            <ul>
+                <a href="pages/about_page.html" class="nav-n">
+                    <li class="name">About-us</li>
+                </a>
+                <a href="pages/contact_page.html" class="nav-n">
+                    <li class="name">Contact-us</li>
+                </a>
+                <a href="pages/category_page.html" class="nav-n">
+                    <li class="name">Category</li>
+                </a>
+                <a href="pages/sign_in_page.html" class="nav-n">
+                    <li class="name">Sign-In</li>
+                </a>
+                <a href="pages/sign_up_page.html" class="nav-n">
+                    <li class="name">Sign-Up</li>
+                </a>
+                <a href="pages/order_book_page.html" class="nav-n">
+                    <li class="name">Book Your Order</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login -->
+
+    <div class="login">
+        <div class="sub-log">
+            <img src="../icon/login.png" alt="login" class="login-img"/>
+            <input type="email" placeholder="Enter Email" name="email" class="log-email" required/>
+            <input type="password" placeholder="Enter Password" name="password" class="log-pass" required/>
+            <p class="forgot">
+                <a href="../pages/forgot_password_page.html"> Forgot Password </a>
+            </p> 
+            <a href="../index.html">
+                <button class="btn">
+                    Sign-In
+                </button> 
+            </a>
+            <p class="create-acc">
+                Don't have an account? <a href="../pages/sign_up_page.html"> <b> Create account </b> </a>
+            </p> 
+        </div>
+    </div>
+
 </body>
 </html>
