@@ -153,3 +153,35 @@ color: #4d001f;
     border-bottom: 2px solid black;
     outline: none;
 }
+.ft{
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    background-color: #c5a3d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px 3px;
+    color: #b30047;
+}
+.ft .description{
+    font-size:17px;
+}
+.description-f{
+    font-size: 14px;
+}
+.ft2{
+    font-family: 'Playfair Display', serif;
+    background-color: #c5a3d7;
+    color: #b30047;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ft .call-us{
+    text-align: left;
+}
