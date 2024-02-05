@@ -28,7 +28,7 @@ css: .btn{
     }
     .btn:hover{
         background-color:#ff4d94;
-        transition:2s;
+        transition:1s;
         border-radius:10px;
     }
 */
