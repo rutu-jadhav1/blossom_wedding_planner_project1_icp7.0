@@ -11,7 +11,7 @@ body{
     justify-content: space-between;
     background-color: #c5a3d7;
     height: 30px;
-    margin: 22px 22px ;
+    margin: 10px 22px ;
     padding: 0px 20px 22px 16px; 
 }
 .logo{
@@ -91,8 +91,8 @@ color: #4d001f;
     min-height: 500px;
 }
 .pr{
-    margin: 22px 22px ;
-    margin-top: -20px;
+    margin: 10px 22px ;
+    
     color: #4d001f;
     font-size: 20px;
 }
