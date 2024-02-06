@@ -5,7 +5,7 @@
     width: 400px;
     background-color: #c5a3d7;
     border-radius: 50px 0px 50px 0px;
-    margin: 100px 0px 0px 640px;
+    margin: 100px 0px 0px 580px;
     box-shadow: 2px 2px 7px 1px #4d001f;
 }
 
@@ -50,9 +50,6 @@
     margin: 9px 0px 0px -110px;
     text-decoration: none;
 }
-
-
-
 .btn{
     height:21px;
     border:none;
@@ -69,14 +66,12 @@
     transition: 1.5s;
     border-radius:10px;
 }
-
 .create-acc{
     font-size: 19px;
     color: #181717;
     margin: 15px 0px 0px 30px;
     font-family: 'Playfair Display', serif;
 }
-
 .create-acc a{
     text-decoration: none;
 }
