@@ -102,6 +102,22 @@ color: #4d001f;
     
     
 }
+.mp{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+.cnt{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+.ml{
+    text-decoration: none;
+    font-family: 'Lora', serif;
+}
+.contactinfo{
+    font-family: 'Lora', serif;
+}
+
 h3{
     margin-bottom:-30px ;
     
@@ -157,6 +173,7 @@ h3{
 }
 .btn{
     font-family: 'Lora', serif;
+    font-size: 22px;
     height:34px;
     width: 194px;
     border:none;
