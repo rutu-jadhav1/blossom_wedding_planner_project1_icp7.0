@@ -153,15 +153,24 @@ p{
     text-align: center;
     padding-bottom: 5px;
 }
-.address{
+.ft .address{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+.ft .address .mp{
+    text-decoration: none;
+}
 .ft .call-us{
     text-align: left;
+}
+.ft .call-us .cnt{
+    text-decoration: none;
 }
 
 .ft .mail{
     text-align: left;
+}
+.ft .mail .ml{
+    text-decoration: none;
 }
