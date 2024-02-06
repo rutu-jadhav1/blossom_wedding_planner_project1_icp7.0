@@ -41,11 +41,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
     background-color: 	 #3E2922;
-=======
-    background-color: #3E2922;
->>>>>>> 51f2ef1dc2dc944ec381ca611f91b474fef1a88a
     height: 30px;
     margin: -10px -10px;
     padding: 0px 20px 22px 16px; 
@@ -58,10 +54,10 @@ body{
 .brand-name{
     margin-left: -310px;
     margin-top: 20px;
-    color: #E57734;
+    color:#E57734;
     font-weight: bold;
     font-family: 'Lora', serif;
-  
+
 }
 .navbar ul{
     list-style: none; 
@@ -71,21 +67,12 @@ nav ul{
     gap: 25px;   
 }
 .name{
-<<<<<<< HEAD
-    color: 	 #E57734;
+    color:#E57734;
     font-family: 'Lora', serif;
 }
 .name:hover{
     color: #ffffff;
     font-weight: bolder;
-=======
-    color: #E57734;
-    font-family: 'Lora', serif;
-}
-.name:hover{
-    color: #F6C0A6;
-    font-weight: bold;
->>>>>>> 51f2ef1dc2dc944ec381ca611f91b474fef1a88a
 }
 .nav-n{
     font-family: 'Playfair Display', serif;
@@ -97,19 +84,19 @@ nav ul{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
-    color:  #3E2922;
+    color:#3E2922;
     text-align: center;
     font-size: 45px;
     
 }
 p{
     font-family: 'Lora', serif;
-    color: #3E2922;
+    color:#3E2922;
     text-align: center;
     font-size:20px;
 }
 .main .slowgan{
-    color: #3E2922;
+    color:#3E2922;
     font-weight: 600;
 }
 .main .category-box{
@@ -125,7 +112,7 @@ p{
     font-size: 18px;
     text-align: center;
     box-shadow: 0 0 10px 3px #E57734;
-    color: #3E2922;
+    color:#3E2922;
 }
 .img:hover{
     box-shadow: 0 0 6px 3px #3E2922;
@@ -140,7 +127,7 @@ p{
     font-size: 18px;
     text-align: center;
     box-shadow: 0 0 10px 3px #E57734;
-    color: #3E2922;
+    color:#3E2922;
 }
 .img1:hover{
     box-shadow: 0 0 6px 3px #3E2922;
@@ -148,7 +135,7 @@ p{
 .f{
     background-color: #3E2922;
     text-align: center;
-    color: #E57734;
+    color:#E57734;
     font-weight: bolder;
     font-size: 16px;
     font-family: 'Lora', serif;
@@ -185,7 +172,7 @@ p{
 }
 .ft .address .mp{
     text-decoration: none;
-    color:#E57734;
+     color:#E57734;
 }
 .ft .call-us{
     text-align: left;
