@@ -41,7 +41,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #c5a3d7;
+    background-color: #3E2922;
     height: 30px;
     margin: -10px -10px;
     padding: 0px 20px 22px 16px; 
@@ -52,7 +52,7 @@ body{
 .brand-name{
     margin-left: -360px;
     margin-top: 20px;
-    color: #4d001f;
+    color: #E57734;
     font-weight: bold;
     font-family: 'Lora', serif;
   
@@ -65,11 +65,11 @@ nav ul{
     gap: 25px;   
 }
 .name{
-    color: #4d001f;
+    color: #E57734;
     font-family: 'Lora', serif;
 }
 .name:hover{
-    color: #4d001f;
+    color: #F6C0A6;
     font-weight: bold;
 }
 .nav-n{
