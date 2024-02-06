@@ -36,23 +36,25 @@ css: .btn{
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 body{
-    background-color: #e4bdda;
+    background-color: #F8EBCF;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #c5a3d7;
+    background-color: 	 #3E2922;
     height: 30px;
     margin: -10px -10px;
     padding: 0px 20px 22px 16px; 
 }
 .logo{
-    border-radius: 60%;
+    background-color: #F8EBCF;
+    height: 52px;
+    border-radius: 20px;
 }
 .brand-name{
-    margin-left: -360px;
+    margin-left: -310px;
     margin-top: 20px;
-    color: #4d001f;
+    color: #E57734;
     font-weight: bold;
     font-family: 'Lora', serif;
   
@@ -65,12 +67,12 @@ nav ul{
     gap: 25px;   
 }
 .name{
-    color: #4d001f;
+    color: 	 #E57734;
     font-family: 'Lora', serif;
 }
 .name:hover{
-    color: #4d001f;
-    font-weight: bold;
+    color: #ffffff;
+    font-weight: bolder;
 }
 .nav-n{
     font-family: 'Playfair Display', serif;
@@ -78,22 +80,23 @@ nav ul{
     font-size: 22px;
 }
 
-h1{
+.main h1{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
-    color:#4d001f ;
+    color:  #3E2922;
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
+    
 }
 p{
     font-family: 'Lora', serif;
-    color: #b30047;
+    color: #3E2922;
     text-align: center;
     font-size:20px;
 }
 .main .slowgan{
-    color: #4d001f;
+    color: #3E2922;
     font-weight: 600;
 }
 .main .category-box{
@@ -108,11 +111,11 @@ p{
     padding: 20px 20px;
     font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #c5a3d7;
-    color: #4d001f;
+    box-shadow: 0 0 10px 3px #E57734;
+    color: #3E2922;
 }
 .img:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: 0 0 6px 3px #3E2922;
    
 }
 .img1{
@@ -123,54 +126,72 @@ p{
     padding: 20px 20px;
     font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #c5a3d7;
-    color: #4d001f;
+    box-shadow: 0 0 10px 3px #E57734;
+    color: #3E2922;
 }
 .img1:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: 0 0 6px 3px #3E2922;
+}
+.f{
+    background-color: #3E2922;
+    text-align: center;
+    color: #E57734;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    padding: 3px 3px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 .ft{
     margin-top: 10px;
     font-family: 'Lora', serif;
-    background-color: #c5a3d7;
+    background-color: #3E2922;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 3px 3px;
-    color: #b30047;
+    color:#E57734;
     margin-left: -10px;
     margin-right: -10px;
 }
 .ft .description{
     font-size:19px;
+    color:#E57734;
 }
 .description-f{
     font-size: 16px;
+    color:#E57734;
 }
 .ft .address{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    color:#E57734;
 }
 .ft .address .mp{
     text-decoration: none;
+    color:#E57734;
 }
 .ft .call-us{
     text-align: left;
 }
 .ft .call-us .cnt{
     text-decoration: none;
+    color:#E57734;
 }
 .ft .mail{
     text-align: left;
 }
 .ft .mail .ml{
     text-decoration: none;
+    color:#E57734;
 }
 .ft2{
     font-family: 'Lora', serif;
-    background-color: #c5a3d7;
-    color: #b30047;
+    background-color: #3E2922;
+    color: #E57734;
     font-size: 16px;
     text-align: center;
     padding-bottom: 5px;
