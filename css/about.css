@@ -4,12 +4,12 @@
 
 
 body{
-    background-color: #e4bdda;
+    background-color: #F8EBCF;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color: #c5a3d7;
+    background-color: #3E2922;
     height: 30px;
     margin: 10px 22px ;
     padding: 0px 20px 22px 16px; 
@@ -20,7 +20,7 @@ body{
 .brand-name{
     margin-left: -300px;
     margin-top: 20px;
-    color: #4d001f;
+    color: #E57734;
     font-weight: bold;
     font-family: 'Lora', serif;
   
@@ -33,10 +33,11 @@ nav ul{
     gap: 25px;   
 }
 .name{
-    color: #4d001f;
+    color: #E57734;
+    
 }
 .name:hover{
-    color: #4d001f;
+    color: #F6C0A6;
     font-weight: bold;
 }
 .nav-n{
@@ -75,7 +76,7 @@ p{
     color: #4d001f;
 }
 .img1:hover:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: rgb(93, 168, 234) 3px 3px 6px 0px inset, rgba(91, 83, 206, 0.678) -3px -3px 6px 1px inset;
    
 }
 .img2{
@@ -88,8 +89,9 @@ p{
     color: #4d001f;
 }
 .img2:hover:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: rgb(93, 168, 234) 3px 3px 6px 0px inset, rgba(91, 83, 206, 0.678) -3px -3px 6px 1px inset;
 }
+
 
 
 
@@ -98,7 +100,7 @@ p{
 .ft{
     margin-top: 10px;
     font-family: 'Playfair Display', serif;
-    background-color: #c5a3d7;
+    background-color: #B6ACAD;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -113,7 +115,7 @@ p{
 }
 .ft2{
     font-family: 'Playfair Display', serif;
-    background-color: #c5a3d7;
+    background-color: #B6ACAD;
     color: #b30047;
     font-size: 14px;
     text-align: center;

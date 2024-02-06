@@ -41,7 +41,11 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     background-color: 	 #3E2922;
+=======
+    background-color: #3E2922;
+>>>>>>> 51f2ef1dc2dc944ec381ca611f91b474fef1a88a
     height: 30px;
     margin: -10px -10px;
     padding: 0px 20px 22px 16px; 
@@ -67,12 +71,21 @@ nav ul{
     gap: 25px;   
 }
 .name{
+<<<<<<< HEAD
     color: 	 #E57734;
     font-family: 'Lora', serif;
 }
 .name:hover{
     color: #ffffff;
     font-weight: bolder;
+=======
+    color: #E57734;
+    font-family: 'Lora', serif;
+}
+.name:hover{
+    color: #F6C0A6;
+    font-weight: bold;
+>>>>>>> 51f2ef1dc2dc944ec381ca611f91b474fef1a88a
 }
 .nav-n{
     font-family: 'Playfair Display', serif;
