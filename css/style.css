@@ -12,8 +12,8 @@
 */
 /*
    font style for content: ex-description
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-   font-family: 'Playfair Display', serif;
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+ font-family: 'Lora', serif;
 */
 
 
@@ -32,8 +32,9 @@ css: .btn{
         border-radius:10px;
     }
 */
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 body{
     background-color: #e4bdda;
 }
@@ -53,7 +54,7 @@ body{
     margin-top: 20px;
     color: #4d001f;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
   
 }
 .navbar ul{
@@ -65,6 +66,7 @@ nav ul{
 }
 .name{
     color: #4d001f;
+    font-family: 'Lora', serif;
 }
 .name:hover{
     color: #4d001f;
@@ -85,7 +87,7 @@ h1{
     font-size: 50px;
 }
 p{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     color: #b30047;
     text-align: center;
     font-size:19px;
@@ -99,6 +101,7 @@ p{
     justify-content: center;
 }
 .img{
+    font-family: 'Lora', serif;
     display: inline-block;
     margin: 30px 40px;
     border: none ;
@@ -113,6 +116,7 @@ p{
    
 }
 .img1{
+    font-family: 'Lora', serif;
     display:inline-block;
     margin: 20px 40px;
     border:none;
@@ -127,7 +131,7 @@ p{
 }
 .ft{
     margin-top: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     background-color: #c5a3d7;
     display: flex;
     flex-direction: row;
@@ -142,7 +146,7 @@ p{
     font-size: 16px;
 }
 .ft2{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     background-color: #c5a3d7;
     color: #b30047;
     font-size: 16px;
