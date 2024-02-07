@@ -151,8 +151,8 @@ h3{
     font-size: 22px;
     height:34px;
     width: 194px;
-    border:none;
-    color: white;
+    border:1.5px solid #ef7743;
+   color:white;
     background-color:#3e2922 ;
     box-shadow: 2px 2px 2px 0 #4d001f;
     margin-left: 30%;
@@ -160,6 +160,7 @@ h3{
 }
 .btn:hover{
     background-color:#ef7743;
+    border:2px solid #4d001f;
     transition:1.5s;
     border-radius:10px;
     color:#3e2922;
