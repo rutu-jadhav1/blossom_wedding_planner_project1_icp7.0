@@ -37,48 +37,6 @@ css: .btn{
 body{
     background-color: #F8EBCF;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: 	 #3E2922;
-    height: 30px;
-    margin: -10px -10px;
-    padding: 0px 20px 22px 16px; 
-}
-.logo{
-    background-color: #F8EBCF;
-    height: 52px;
-    border-radius: 20px;
-}
-.brand-name{
-    margin-left: -310px;
-    margin-top: 20px;
-    color:#E57734;
-    font-weight: bold;
-    font-family: 'Lora', serif;
-
-}
-.navbar ul{
-    list-style: none; 
-}
-nav ul{
-    display: flex;
-    gap: 25px;   
-}
-.name{
-    color:#E57734;
-    font-family: 'Lora', serif;
-}
-.name:hover{
-    color: #ffffff;
-    font-weight: bolder;
-}
-.nav-n{
-    font-family: 'Playfair Display', serif;
-    text-decoration: none;
-    font-size: 22px;
-}
-
 .main .heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
@@ -153,74 +111,5 @@ p{
 .img1:hover{
     box-shadow: 0 0 6px 3px #3E2922;
 }
-.f{
-    background-color: #3E2922;
-    text-align: center;
-    color:#E57734;
-    font-weight: bolder;
-    font-size: 17px;
-    font-family: 'Lora', serif;
-    padding: 5px 5px;
-    margin-bottom: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.ft{
-    margin-top: 10px;
-    font-family: 'Lora', serif;
-    background-color: #3E2922;
-    border-top:1px solid #F8EBCF;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 4px 4px;
-    color:#E57734;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.ft .description{
-    font-size:19px;
-    color:#F8EBCF;
-}
-.description-f{
-    font-size: 16px;
-    color:#E57734;
-}
-.ft .address{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color:#E57734;
-}
-.ft .address .mp{
-    text-decoration: none;
-     color:#F8EBCF;
-}
-.ft .call-us{
-    text-align: left;
-}
-.ft .call-us .cnt{
-    text-decoration: none;
-    color:#F8EBCF;
-}
-.ft .mail{
-    text-align: left;
-}
-.ft .mail .ml{
-    text-decoration: none;
-    color:#F8EBCF;
-}
 
-.ft2{
-    font-family: 'Lora', serif;
-    background-color: #3E2922;
-    color: #E57734;
-    border-top:1px solid #F8EBCF;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-bottom: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
+
