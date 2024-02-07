@@ -38,7 +38,7 @@ p:hover{
     font-size:40px;
 }
 .btn{
-    margin:200px 20px;
+    margin:160px 20px;
 }
 .pr{
     margin: 10px 22px ;  
@@ -52,4 +52,9 @@ p:hover{
     color:#3E2922;
     text-align: center;
     font-size: 45px;
+}
+marquee{
+    font-size:30px;
+    color:#3E2922;
+    
 }
