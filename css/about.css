@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+
+body{
+    background-color: #e4bdda;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c5a3d7;
+    height: 30px;
+    margin: 10px 22px ;
+    padding: 0px 20px 22px 16px; 
+}
+.logo{
+    border-radius: 60%;
+}
+.brand-name{
+    margin-left: -300px;
+    margin-top: 20px;
+    color: #4d001f;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+  
+}
+ul{
+    list-style: none; 
+}
+nav ul{
+    display: flex;
+    gap: 25px;   
+}
+.name{
+    color: #4d001f;
+}
+.name:hover{
+    color: #4d001f;
+    font-weight: bold;
+}
+.nav-n{
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Lora', serif;
+}
+.main{
+   
+}
+h1{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#4d001f ;
+    text-align: center;
+    font-size: 48px;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    color: #b30047;
+    text-align: center;
+    font-size:17px;
+}
+.main .category-box{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    display: inline-block;
+    margin: 30px 40px;
+    border: none ;
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 3px #c5a3d7;
+    color: #4d001f;
+}
+.img1:hover:hover{
+    box-shadow: 0 0 6px 3px #4d001f;
+   
+}
+.img2{
+    display:inline-block;
+    margin: 20px 40px;
+    border:none;
+    padding: 20px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 3px #c5a3d7;
+    color: #4d001f;
+}
+.img2:hover:hover{
+    box-shadow: 0 0 6px 3px #4d001f;
+}
+
+
+
+
+
+.ft{
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    background-color: #c5a3d7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px 3px;
+    color: #b30047;
+}
+.ft .description{
+    font-size:17px;
+}
+.description-f{
+    font-size: 14px;
+}
+.ft2{
+    font-family: 'Playfair Display', serif;
+    background-color: #c5a3d7;
+    color: #b30047;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ft .call-us{
+    text-align: left;
+}
+
+.ft .mail{
+    text-align: left;
+}

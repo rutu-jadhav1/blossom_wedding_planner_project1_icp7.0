@@ -1,7 +1,6 @@
-/* background color : #e4bdda;
- heading-text-color:#4d001f;
- Content-color:#b30047;
- div-color:#c5a3d7;
+/* background color : #F8EBCF;
+ heading-text-color:#3E2922;
+ div-color:#E57734;
 */
 /*
     font style for heading tag: ex- about us,etc.
@@ -12,39 +11,44 @@
 */
 /*
    font style for content: ex-description
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-   font-family: 'Playfair Display', serif;
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+ font-family: 'Lora', serif;
 */
 
 
 /* 
 html: <button class="btn">Submit</button>
 css: .btn{
-        height:21px;
-        border:none;
+        font-family: 'Lora', serif;
+        font-size: 22px;
+        height:34px;
+        width: 194px;
+        border:1.5px solid #E57734;
         color:white;
-        background-color: #b30077;
+        background-color: #3e2922;
         box-shadow: 2px 2px 2px 0 #4d001f;
     }
     .btn:hover{
-        background-color:#ff4d94;
-        transition:1s;
+        background-color:#ef7743;
+        border:2px solid #4d001f;
+        transition:1.5s;
         border-radius:10px;
+        color:#3e2922;
     }
 */
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 body{
-    background-color:#fdfafc;
+    background-color:#e4bdda;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
-    background-color:#c5a3d7;
+    background-color: #c5a3d7;
     height: 30px;
     margin: 10px 22px ;
     padding: 0px 20px 22px 16px; 
-    box-shadow: 2px 2px 2px 0 #4d001f;
 }
 .logo{
     border-radius: 60%;
@@ -54,12 +58,10 @@ body{
 }
 nav ul{
     display: flex;
-    gap: 25px;  
+    gap: 25px;   
 }
 .name{
     color: #4d001f;
-    font-weight: bold;
-    font-size: 20px;
 }
 .nav-n{
     font-family: 'Playfair Display', serif;
@@ -73,83 +75,168 @@ h1{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
-    color:#4d001f ;
+    color:#3E2922;
     text-align: center;
-    font-size: 48px;
+    font-size: 45px;
+    
 }
 p{
-    font-family: 'Playfair Display', serif;
-    color: #b30047;
+    font-family: 'Lora', serif;
+    color:#3E2922;
     text-align: center;
-    font-size:17px;
+    font-size:20px;
 }
 .main .slowgan{
-    color: #4d001f;
+    color:#3E2922;
     font-weight: 600;
+}
+.main .gallary{
+    border: 1px solid #3E2922 ;    
+    background-image: url(./../img/logo1d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.main .gallary img{
+    background-color: #F8EBCF;
+    border: 1px solid #3E2922 ;
+    height: 400px;
+    padding: 10px 10px;
+}
+
+.main .heading2{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.main .wlcm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+   
+}
+.main .wlcm1{
+    width: 900px;
+    height: 500px;
+    margin: 94px 80px;
+    padding-top: 50px;
+}
+.main .wlcm .wlcm-des{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.main .wlcm1 .wlcm-des1{
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    padding-top: 50px;
+}
+.btn{
+    
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #ef7743;
+    color:white;
+    background-color:#3e2922 ;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    margin-top: 30px;
+    
+}
+.btn:hover{
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
+    border-radius:10px;
+    color:#3e2922;
+}
+.main .wlcm2{
+    width: 80px;
+    height: 500px;
+   margin: 80px 0px;
+ 
+}
+.heading3{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 80px;
 }
 .main .category-box{
     display: flex;
     justify-content: center;
 }
 .img{
+    font-family: 'Lora', serif;
     display: inline-block;
-    margin: 30px 40px;
-    border: none ;
+    margin: 20px 40px;
+    border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
+    font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #c5a3d7;
-    color: #4d001f;
+    color:#3E2922;
 }
 .img:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: 0 0 6px 3px #3E2922;
    
 }
 .img1{
+    font-family: 'Lora', serif;
     display:inline-block;
     margin: 20px 40px;
-    border:none;
+    border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
+    font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #c5a3d7;
-    color: #4d001f;
+    color:#3E2922;
 }
 .img1:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: 0 0 6px 3px #3E2922;
 }
 .ft{
     margin-top: 10px;
     font-family: 'Playfair Display', serif;
-    background-color:#c5a3d7;
+    background-color: #c5a3d7;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 3px 3px;
-    color: #b30047;
 }
-.ft .description{
-    font-size:17px;
-}
-.description-f{
-    font-size: 14px;
-}
-.ft2{
-    font-family: 'Playfair Display', serif;
-    background-color: #c5a3d7;
-    color: #b30047;
-    font-size: 14px;
+.main .rv .rv-d{
+    width: 300px;
+    height: 390px;
+    font-family: 'Lora', serif;
+    margin: 10px 10px;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 20px 20px;
+    font-size: 18px;
     text-align: center;
-    padding-bottom: 5px;
+    color:#3E2922;
 }
-.address{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.main .rv .rv-d .rv-des{
+    font-size: 14px;
+    text-align: start;
 }
-.ft .call-us{
-    text-align: left;
+.main .rv .rv-d .rv-d2{
+    margin-bottom: -500px;
 }
-
-.ft .mail{
-    text-align: left;
+.main .rv .rv-d:hover{
+    transition: 1.5s;
+    margin-top: -20px;
+    box-shadow: 0 0 6px 3px #3E2922;
 }
 

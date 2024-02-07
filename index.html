@@ -4,76 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blossom Wedding Planner main page</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-                <img src="icon/logo.png" alt="Company logo" height="55px"/>
+                <img src="./icon/logo.png" alt="Company logo" height="45px" class="logo"/><span class="brand-name">Blossom Wedding Planner</span>
             <ul>
-                <a href="pages/about_page.html" class="nav-n">
+                <a href="./index.html" class="nav-n">
+                    <li class="name">Home</li>
+                </a>
+                <a href="./pages/about_page.html" class="nav-n">
                     <li class="name">About-us</li>
                 </a>
-                <a href="pages/contact_page.html" class="nav-n">
+                <a href="./pages/contact_page.html" class="nav-n">
                     <li class="name">Contact-us</li>
                 </a>
-                <a href="pages/category_page.html" class="nav-n">
+                <a href="./pages/category_page.html" class="nav-n">
                     <li class="name">Category</li>
                 </a>
-                <a href="pages/sign_in_page.html" class="nav-n">
+                <a href="./pages/sign_in_page.html" class="nav-n">
                     <li class="name">Sign-In</li>
                 </a>
-                <a href="pages/sign_up_page.html" class="nav-n">
+                <a href="./pages/sign_up_page.html" class="nav-n">
                     <li class="name">Sign-Up</li>
                 </a>
                 <a href="pages/order_book_page.html" class="nav-n">
-                    <li class="name">Book now</li>
+                    <li class="name">Book Your Order</li>
                 </a>
             </ul>
         </nav>
     </header>
     <div class="main">
-        <h1>Blossom Wedding Planner</h1>
-        <p>Welcome to Blossom Wedding Planner,where dreams unfold into seamless celebrations.<br/>Our wedding management services blend creativity and precision to craft your perfect day.<br/>From meticulous planning to flawless execution,trust us to turn your vision into an enchanting reality.<br/><br/><span class="slowgan">Your Love,Our Artistry</span></p>
+        <h1 class="heading">Blossom Wedding Planner</h1>
+        <p>Welcome to Blossom Wedding Planner,where dreams unfold into seamless celebrations.<br/>Our wedding management services blend creativity and precision to craft your perfect day.<br/>From meticulous planning to flawless execution,trust us to turn your vision into an enchanting reality.
+            <br/><br/><span class="slowgan">Your Love,Our Artistry</span></p>
+        
+        <h1 class="heading2">Our gallary</h1>
+        <div class="gallary">
+            <marquee>
+                <img src="./img/im1.jpg" />
+                <img src="./img/im2.jpg" />
+                <img src="./img/im3.jpg" >
+                <img src="./img/im4.jpg"/>
+                <img src="./img/im5.jpg" />
+                <img src="./img/im6.jpg" />
+                <img src="./img/im7.jpg" >
+                <img src="./img/im8.jpg" >
+            </marquee>
+        </div>
+        
+        <div class="wlcm">
+            <div class="wlcm1">
+                <span class="wlcm-des"><i>WELCOME to Our Site​ </i></span><br/><br/>
+                <span class="wlcm-des1">Belle Fleur’s mission is to deliver a heartfelt planning experience so you have a heart filled wedding day. You can count on us to be calm, loving, hands-on and, most importantly, professional throughout your entire planning process.</span><br/>
+                <button class="btn"><a href="./pages/about_page.html" style="text-decoration: none; color:#F8EBCF;">Read More</a></button>
+            </div>
+            <div class="wlcm2"><img src="./img/wlcmpg.jpg" height="450px"/></div>
+        </div>
+        
+        <h1 class="heading3">Ceremony</h1>
         <div class="category-box">
-            <div class="img"><img src="/img/sangeet.jpg" alt="Sangeet Decoration"  width="400px"/><br/>Sangeet Decoration</div>
-            <div class="img"><img src="/img/mehndi.jpg" alt="Mehandi Decoration" width="391px"/><br/>Mehandi Decoration</div>
+            <div class="img"><img src="./img/sangeet.jpg" alt="Sangeet Decoration"  width="400px"/><br/><br/>Sangeet Decoration</div>
+            <div class="img"><img src="./img/mehndi.jpg" alt="Mehandi Decoration" width="391px"/><br/><br/>Mehandi Decoration</div>
         </div>&nbsp;
         <div class="category-box">
-            <div class="img1"><img src="/img/haldi.avif" alt="Haldi Decoration"  width="394px"/><br/>Haldi Decoration</div>&nbsp;&nbsp;
-            <div class="img1 im"><img src="/img/mandap3.jpg" alt="Mandap Decoration" height="313px"/><br/>Mandap Decoration</div>
+            <div class="img1"><img src="./img/haldi.avif" alt="Haldi Decoration"  width="394px"/><br/><br/>Haldi Decoration</div>&nbsp;&nbsp;
+            <div class="img1 im"><img src="./img/mandap3.jpg" alt="Mandap Decoration" height="313px"/><br/><br/>Mandap Decoration</div>
+        </div>
+
+        <h1 class="heading3">Review</h1>
+        <div class="rv">
+            <div class="rv-d"><img src="./img/client1.avif" width="300px"><br/><b>Joseph</b><br/><span class="rv-des">The Blossom Wedding Planner company turned our dream vision into a breathtaking reality.The team's dedication to perfection made our special day truly magical. If you're looking for a wedding with enchanting decor, this company is a stellar choice.</span></div>
+            <div class="rv-d"><img src="./img/client2.webp" width="300px"><br/><b>Daisy</b><br/><span class="rv-des">The event management company didn't just decorate; they orchestrated a symphony of aesthetics. Every corner held a story, a fusion of elegance and innovation. It was not just decor; it was a curated experience that left an indelible mark on our memories.</span></div>
+            <div class="rv-d"><img src="./img/client3.webp" width="300px"><br/><b>Grace</b><br/><span class="rv-des">Their attention to detail and creativity transformed the venue beautifully. The team was responsive to our preferences, ensuring a personalized touch. Overall, the decoration significantly enhanced the event ambiance, and we were delighted with the outcome.</span></div>
+            <div class="rv-d rv-d2"><img src="./img/client4-1.jpg" width="300px"><br/><b>Justin</b><br/><span class="rv-des">The wedding event management company's decoration service was a masterpiece. They skillfully transformed our venue into a fairy tale setting, with every element thoughtfully curated.Grateful for their expertise in turning dreams into reality.</span></div>
         </div>
     </div>
-    <section>
-
-    </section>
-
+   
 
     <footer>
+        <div class="f">
+            We have completed 10+ events in Maharashtra
+        </div>
         <div class="ft">
             <p class="description">Blossom Wedding Planner<br/>Your Love,Our Artistry.<br/><span class="description-f">Embark on a journey with us,where every vow finds its perfect melody.<br/> We redefine weddings,passion into planning and precision into execution.<br/>Let's craft an experience that mirror's your uniqueness.</span></p>
             <div class="address">
                 <ul type="circle">
-                <img src="/icon/maps.png" height="15px"/>&nbsp;&nbsp;Address
-                    <li>Nashik</li>
-                    <li>Pune</li>
-                    <li>Goa</li>
+                <img src="./icon/maps.png"height="20px" style="background-color: #F8EBCF; border-radius: 16px;"/>&nbsp;&nbsp;Address
+                    <li><a href="https://maps.app.goo.gl/jGjvwSM56KvTT9Wb8" class="mp">Nashik</a></li>
+                    <li><a href="https://maps.app.goo.gl/HJZoASPpyNCQho6U8"  class="mp">Pune</a></li>
+                    <li><a href="https://maps.app.goo.gl/ckwQWGCd7CBSqVMQ8"  class="mp">Goa</a></li>
                 </ul>
             </div>
             <div class="call-us">
                 <ul type="circle">
-                <img src="/icon/call.png" height="15px"/>&nbsp;&nbsp;Call-us
-                    <li>+91 2365894562</li>
-                    <li>+91 4586932578</li>
-                    <li>+91 9322795663</li>
+                <img src="./icon/call.png" height="20px" style="background-color: #F8EBCF; border-radius: 16px;"/>&nbsp;&nbsp;Call-us
+                    <li><a href="tel:9322484363" class="cnt">+91 9322484363</a></li>
+                    <li><a href="tel:8862009153" class="cnt">+91 8862009153</a></li>
+                    <li><a href="tel:7821011979" class="cnt">+91 7821011979</a></li>
                 </ul>
             </div>
             <div class="mail">
                 <ul type="circle">
-                    <img src="/icon/email.png" height="15px"/>&nbsp;&nbsp;Email us
-                    <li>0103rutujajadhav@gmail.com</li>
-                    <li>roadtocode@gmail.org</li>
-                    <li>g18@gmail.com</li>
+                    <img src="./icon/email.png" height="20px" style="background-color: #F8EBCF; border-radius: 16px;"/>&nbsp;&nbsp;Email us
+                    <li><a href="mailto:0103rutujajadhav@gmail.com" class="ml">0103rutujajadhav@gmail.com</a></li>
+                    <li><a href="mailto:rautnikita427@gmail.com" class="ml">rautnikita427@gmail.com</a></li>
+                    <li><a href="mailto:suraj2roadtocode.org" class="ml">suraj2roadtocode.org</a></li>
                 </ul>
             </div>
         </div>
