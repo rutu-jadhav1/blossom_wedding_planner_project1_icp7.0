@@ -113,3 +113,14 @@ p{
 }
 
 
+.main .rv .rv-d{
+    font-family: 'Lora', serif;
+    display: inline-block;
+    margin: 10px 10px;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 20px 20px;
+    font-size: 18px;
+    text-align: center;
+    color:#3E2922;
+}
+
