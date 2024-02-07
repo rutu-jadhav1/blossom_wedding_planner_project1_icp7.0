@@ -1,8 +1,9 @@
 marquee{
-    color:#E57734;
-    font-size:30px;
+    color:#3E2922;
+    font-size:20px;
+    background-color:#E57734;
 }
-.one_lakh{
+.pck_img{
     font-family: 'Lora', serif;
     margin: 20px 40px;
     border: 2px solid rgb(51, 49, 49);
@@ -11,11 +12,22 @@ marquee{
     text-align: center;
     color:#3E2922;
 }
-.one_lakh:hover{
+.pck_img:hover{
     box-shadow: 0 0 6px 3px #3E2922;
-    height:360px;
     border-radius:10px;
 }
 .discription{
+    font-family: 'Lora', serif;
+    font-size:20px;
+}
+.pkg{
+    color:#E57734;
+    padding:-100px -20px;
+    font-family: 'Lora', serif;
+   
+}
+.desc{
+    height:350px;border:none;
+    border-radius:5px;
     font-family: 'Lora', serif;
 }
