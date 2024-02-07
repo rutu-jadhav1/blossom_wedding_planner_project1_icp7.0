@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    background-color: #f8f9f9;
+}
+
+.sign_heading{
+    font-family: 'Protest Riot', sans-serif;
+    color: #b30077;
+    margin: 60px 0px 0px 700px;
+    font-size: 45px;
+}
+
+
 .sub-log{
     height: 500px;
     width: 400px;
-    background-color: #c5a3d7;
+    background-color: #d0d0e1;
     border-radius: 50px 0px 50px 0px;
-    margin: 100px 0px 0px 580px;
+    margin: 50px 0px 80px 580px;
     box-shadow: 2px 2px 7px 1px #4d001f;
 }
 
@@ -17,11 +30,11 @@
 .log-email{
     font-size: 18px;
     border-radius: 5px;
-    border: 1.5px solid #b30077;
+    border: 1.5px solid #46466d;
     height: 40px;
     width: 250px;
     margin: 20px 0px 10px 70px;
-    background-color: #F8E8EE;
+    background-color: #f8f9f9;
     font-family: 'Playfair Display', serif;
     box-shadow: 2px 2px 6px 0 #4d001f;
 }
@@ -30,11 +43,11 @@
 .log-pass{
     font-size: 18px;
     border-radius: 5px;
-    border: 1.5px solid #b30077;
+    border: 1.5px solid #46466d;
     height: 40px;
     width: 250px;
     margin: 10px 0px 0px 70px;
-    background-color: #F8E8EE;
+    background-color: #f8f9f9;
     font-family: 'Playfair Display', serif;
     box-shadow: 2px 2px 6px 0 #4d001f;
 }
@@ -42,16 +55,15 @@
 .forgot{
     font-size: 19px;
     color: #181717;
-   
     font-family: 'Playfair Display', serif;
 }
 
 .forgot a{
     margin: 9px 0px 0px -110px;
     text-decoration: none;
+    color: #b30077;
 }
 .btn{
-    height:21px;
     border:none;
     color:white;
     background-color: #b30077;
@@ -63,7 +75,7 @@
 }
 .btn:hover{
     background-color:#ff4d94;
-    transition: 1.5s;
+    transition: 0.8s;
     border-radius:10px;
 }
 .create-acc{
@@ -74,4 +86,5 @@
 }
 .create-acc a{
     text-decoration: none;
+    color: #b30077;
 }
