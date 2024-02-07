@@ -31,3 +31,12 @@ marquee{
     border-radius:5px;
     font-family: 'Lora', serif;
 }
+.album{
+    margin:15px;
+    justify-content: space-between;
+}
+.album:hover{
+    box-shadow: 0 0 6px 3px #3E2922;
+    border-radius:10px;
+}
+
