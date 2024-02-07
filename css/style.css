@@ -40,9 +40,38 @@ css: .btn{
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 body{
-    background-color: #F8EBCF;
+    background-color:#e4bdda;
 }
-.main .heading{
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #c5a3d7;
+    height: 30px;
+    margin: 10px 22px ;
+    padding: 0px 20px 22px 16px; 
+}
+.logo{
+    border-radius: 60%;
+}
+.navbar ul{
+    list-style: none; 
+}
+nav ul{
+    display: flex;
+    gap: 25px;   
+}
+.name{
+    color: #4d001f;
+}
+.nav-n{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 20px;
+}
+.main{
+   
+}
+h1{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
@@ -180,8 +209,10 @@ p{
 .img1:hover{
     box-shadow: 0 0 6px 3px #3E2922;
 }
-
-.rv{
+.ft{
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+    background-color: #c5a3d7;
     display: flex;
     flex-direction: row;
 }
