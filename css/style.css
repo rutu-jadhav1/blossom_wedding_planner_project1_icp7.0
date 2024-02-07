@@ -12,8 +12,8 @@
 */
 /*
    font style for content: ex-description
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-   font-family: 'Playfair Display', serif;
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+ font-family: 'Lora', serif;
 */
 
 
@@ -32,21 +32,30 @@ css: .btn{
         border-radius:10px;
     }
 */
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 body{
-    background-color:#e4bdda;
+    background-color: #e4bdda;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     background-color: #c5a3d7;
     height: 30px;
-    margin: 10px 22px ;
+    margin: -10px -10px;
     padding: 0px 20px 22px 16px; 
 }
 .logo{
     border-radius: 60%;
+}
+.brand-name{
+    margin-left: -360px;
+    margin-top: 20px;
+    color: #4d001f;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+  
 }
 .navbar ul{
     list-style: none; 
@@ -57,29 +66,32 @@ nav ul{
 }
 .name{
     color: #4d001f;
+    font-family: 'Lora', serif;
+}
+.name:hover{
+    color: #4d001f;
+    font-weight: bold;
 }
 .nav-n{
     font-family: 'Playfair Display', serif;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
 }
-.main{
-   
-}
+
 h1{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
     color:#4d001f ;
     text-align: center;
-    font-size: 48px;
+    font-size: 50px;
 }
 p{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     color: #b30047;
     text-align: center;
-    font-size:17px;
-}z
+    font-size:20px;
+}
 .main .slowgan{
     color: #4d001f;
     font-weight: 600;
@@ -89,10 +101,12 @@ p{
     justify-content: center;
 }
 .img{
+    font-family: 'Lora', serif;
     display: inline-block;
     margin: 30px 40px;
-    border: none ;
+    border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
+    font-size: 18px;
     text-align: center;
     box-shadow: 0 0 10px 3px #c5a3d7;
     color: #4d001f;
@@ -102,10 +116,12 @@ p{
    
 }
 .img1{
+    font-family: 'Lora', serif;
     display:inline-block;
     margin: 20px 40px;
-    border:none;
+    border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
+    font-size: 18px;
     text-align: center;
     box-shadow: 0 0 10px 3px #c5a3d7;
     color: #4d001f;
@@ -115,37 +131,50 @@ p{
 }
 .ft{
     margin-top: 10px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     background-color: #c5a3d7;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 3px 3px;
     color: #b30047;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 .ft .description{
-    font-size:17px;
+    font-size:19px;
 }
 .description-f{
-    font-size: 14px;
+    font-size: 16px;
 }
-.ft2{
-    font-family: 'Playfair Display', serif;
-    background-color: #c5a3d7;
-    color: #b30047;
-    font-size: 14px;
-    text-align: center;
-    padding-bottom: 5px;
-}
-.address{
+.ft .address{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+.ft .address .mp{
+    text-decoration: none;
+}
 .ft .call-us{
     text-align: left;
 }
-
+.ft .call-us .cnt{
+    text-decoration: none;
+}
 .ft .mail{
     text-align: left;
+}
+.ft .mail .ml{
+    text-decoration: none;
+}
+.ft2{
+    font-family: 'Lora', serif;
+    background-color: #c5a3d7;
+    color: #b30047;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
