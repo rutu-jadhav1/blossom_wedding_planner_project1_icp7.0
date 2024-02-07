@@ -1,7 +1,6 @@
-/* background color : #e4bdda;
- heading-text-color:#4d001f;
- Content-color:#b30047;
- div-color:#c5a3d7;
+/* background color : #F8EBCF;
+ heading-text-color:#3E2922;
+ div-color:#E57734;
 */
 /*
     font style for heading tag: ex- about us,etc.
@@ -80,7 +79,7 @@ nav ul{
     font-size: 22px;
 }
 
-.main h1{
+.main .heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
@@ -99,6 +98,30 @@ p{
     color:#3E2922;
     font-weight: 600;
 }
+.main .gallary{
+    border: 1px solid #3E2922 ;    
+    background-image: url(./../img/logo1d.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.main .gallary img{
+    background-color: #F8EBCF;
+    border: 1px solid #3E2922 ;
+    height: 400px;
+    padding: 10px 10px;
+}
+
+.main .heading2{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 35px;
+}
 .main .category-box{
     display: flex;
     justify-content: center;
@@ -106,12 +129,11 @@ p{
 .img{
     font-family: 'Lora', serif;
     display: inline-block;
-    margin: 30px 40px;
+    margin: 20px 40px;
     border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
     font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #E57734;
     color:#3E2922;
 }
 .img:hover{
@@ -126,7 +148,6 @@ p{
     padding: 20px 20px;
     font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #E57734;
     color:#3E2922;
 }
 .img1:hover{
@@ -137,9 +158,9 @@ p{
     text-align: center;
     color:#E57734;
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 17px;
     font-family: 'Lora', serif;
-    padding: 3px 3px;
+    padding: 5px 5px;
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
@@ -148,17 +169,18 @@ p{
     margin-top: 10px;
     font-family: 'Lora', serif;
     background-color: #3E2922;
+    border-top:1px solid #F8EBCF;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 3px 3px;
+    padding: 4px 4px;
     color:#E57734;
     margin-left: -10px;
     margin-right: -10px;
 }
 .ft .description{
     font-size:19px;
-    color:#E57734;
+    color:#F8EBCF;
 }
 .description-f{
     font-size: 16px;
@@ -172,29 +194,32 @@ p{
 }
 .ft .address .mp{
     text-decoration: none;
-     color:#E57734;
+     color:#F8EBCF;
 }
 .ft .call-us{
     text-align: left;
 }
 .ft .call-us .cnt{
     text-decoration: none;
-    color:#E57734;
+    color:#F8EBCF;
 }
 .ft .mail{
     text-align: left;
 }
 .ft .mail .ml{
     text-decoration: none;
-    color:#E57734;
+    color:#F8EBCF;
 }
+
 .ft2{
     font-family: 'Lora', serif;
     background-color: #3E2922;
     color: #E57734;
-    font-size: 16px;
+    border-top:1px solid #F8EBCF;
+    font-size: 14px;
     text-align: center;
-    padding-bottom: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
