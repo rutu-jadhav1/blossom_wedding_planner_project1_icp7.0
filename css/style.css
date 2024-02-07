@@ -19,16 +19,21 @@
 /* 
 html: <button class="btn">Submit</button>
 css: .btn{
-        height:21px;
-        border:none;
+        font-family: 'Lora', serif;
+        font-size: 22px;
+        height:34px;
+        width: 194px;
+        border:1.5px solid #E57734;
         color:white;
-        background-color: #b30077;
+        background-color: #3e2922;
         box-shadow: 2px 2px 2px 0 #4d001f;
     }
     .btn:hover{
-        background-color:#ff4d94;
-        transition:1s;
+        background-color:#ef7743;
+        border:2px solid #4d001f;
+        transition:1.5s;
         border-radius:10px;
+        color:#3e2922;
     }
 */
 
@@ -80,6 +85,69 @@ p{
     text-align: center;
     font-size: 35px;
     margin-bottom: 30px;
+    margin-top: 40px;
+}
+.main .wlcm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+   
+}
+.main .wlcm1{
+    width: 900px;
+    height: 500px;
+    margin: 94px 80px;
+    padding-top: 50px;
+}
+.main .wlcm .wlcm-des{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.main .wlcm1 .wlcm-des1{
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    padding-top: 50px;
+}
+.btn{
+    
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #ef7743;
+    color:white;
+    background-color:#3e2922 ;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    margin-top: 30px;
+    
+}
+.btn:hover{
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
+    border-radius:10px;
+    color:#3e2922;
+}
+.main .wlcm2{
+    width: 80px;
+    height: 500px;
+   margin: 80px 0px;
+ 
+}
+.heading3{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 80px;
 }
 .main .category-box{
     display: flex;
