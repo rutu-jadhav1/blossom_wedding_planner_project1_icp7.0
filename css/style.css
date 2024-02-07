@@ -79,6 +79,7 @@ p{
     color:#3E2922;
     text-align: center;
     font-size: 35px;
+    margin-bottom: 50px;
 }
 .main .category-box{
     display: flex;
@@ -112,15 +113,31 @@ p{
     box-shadow: 0 0 6px 3px #3E2922;
 }
 
-
+.rv{
+    display: flex;
+    flex-direction: row;
+}
 .main .rv .rv-d{
+    width: 300px;
+    height: 390px;
     font-family: 'Lora', serif;
-    display: inline-block;
     margin: 10px 10px;
     border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
     font-size: 18px;
     text-align: center;
     color:#3E2922;
+}
+.main .rv .rv-d .rv-des{
+    font-size: 14px;
+    text-align: start;
+}
+.main .rv .rv-d .rv-d2{
+    margin-bottom: -500px;
+}
+.main .rv .rv-d:hover{
+    transition: 1.5s;
+    margin-top: -20px;
+    box-shadow: 0 0 6px 3px #3E2922;
 }
 
