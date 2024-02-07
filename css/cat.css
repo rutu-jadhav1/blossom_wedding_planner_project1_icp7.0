@@ -1,61 +1,21 @@
-
-body{
-    background-color:#F8EBCF;
-}
-.parent{
-    color:#E57734;
-    height:550px;width:1500px;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    align-items:center;
-}
-
-.child{
-    height:400px;
-    width:300px;
-    color:#b30047;
-    border:2px solid black;
-    border-radius:5px;
-    font-family: 'Playfair Display', serif;
-    text-align:center;
-    margin:200px -20px;
-    font-family: 'Lora', serif;
-    font-size:25px;
-    border-radius:15px;
-}
-.child:hover{
-    color:white;
-    background-color:#E57734;
-    border: #3E2922 3px solid;
-    border-radius:15px;
-    padding:30px 0px;
-    
-}
-p{
-    font-size:20px;
-}
-p:hover{
-    font-size:25px;
-}
-.btn{
-    margin:100px 20px;
-}
-.pr{
-    margin: 10px 22px ;  
-    color: #4d001f;
-    font-size: 22px;
-}
-.heading{
-    font-family: 'EB Garamond', serif;
-    font-family:  'Pacifico', 'cursive';
-    font-family: 'Protest Riot', sans-serif;
-    color:#3E2922;
-    text-align: center;
-    font-size: 45px;
-}
 marquee{
+    color:#E57734;
     font-size:30px;
+}
+.one_lakh{
+    font-family: 'Lora', serif;
+    margin: 20px 40px;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 20px 20px;
+    font-size: 10px;
+    text-align: center;
     color:#3E2922;
-    
+}
+.one_lakh:hover{
+    box-shadow: 0 0 6px 3px #3E2922;
+    height:360px;
+    border-radius:10px;
+}
+.discription{
+    font-family: 'Lora', serif;
 }
