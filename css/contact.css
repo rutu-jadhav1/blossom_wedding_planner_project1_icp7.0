@@ -110,7 +110,8 @@ h3{
     display: flex;
 }
 .container .contactinfo text{
-    margin-top: 15px;
+    margin-top: 10px;
+    padding-bottom: -20px;
     font-family: 'Lora', serif;
 }
 .container .contactform
