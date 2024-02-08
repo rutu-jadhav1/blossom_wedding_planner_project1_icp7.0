@@ -149,8 +149,8 @@ p{
     color:#3E2922;
     text-align: center;
     font-size: 35px;
-    margin-bottom: 30px;
-    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 .main .category-box{
     display: flex;
@@ -210,6 +210,15 @@ p{
     transition: 1.5s;
     margin-top: -20px;
     box-shadow: 0 0 6px 3px #3E2922;
+}
+.main .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+.main .social .social-icon{
+   padding: 50px 40px;
 }
 
 
