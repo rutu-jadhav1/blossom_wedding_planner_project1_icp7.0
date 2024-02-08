@@ -151,11 +151,11 @@ p{
 }
 .main .category-box{
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .img{
     font-family: 'Lora', serif;
-    display: inline-block;
     margin: 20px 40px;
     border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
@@ -207,4 +207,42 @@ p{
     transition: 1.5s;
     margin-top: -20px;
     box-shadow: 0 0 6px 3px #3E2922;
+}
+
+
+
+@media screen and (max-width: 648px) {
+    .main .wlcm{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        width: 350px;
+        margin-top: 220px;
+    }   
+.main .wlcm1{
+    width: 380px;
+    height: 800px;
+    padding-top: 30px;
+    }
+.main .wlcm2{
+    width: 60px;
+    height: 800px;
+    margin-top: 10px;
+    }
+    
+.main .category-box{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .heading3{
+        margin-top: 250px;
+    }
+    
+.rv{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 40px;
+    padding: 40px 20px;
+}
 }
