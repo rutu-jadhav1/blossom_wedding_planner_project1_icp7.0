@@ -50,8 +50,7 @@ body{
     text-align: center;
     font-size: 45px;
     position: relative;
-    top: 18px;
-    
+    top: 30px;    
 }
 p{
     font-family: 'Lora', serif;
@@ -71,7 +70,9 @@ p{
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
+  
 }
+
 .main .gallary img{
     background-color: #F8EBCF;
     border: 1px solid #3E2922 ;
@@ -192,7 +193,7 @@ p{
     width: 300px;
     height: 390px;
     font-family: 'Lora', serif;
-    margin: 10px 10px;
+    margin: 10px 14px;
     border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
     font-size: 18px;
@@ -240,13 +241,22 @@ p{
         height: 800px;
         margin-top: 10px;
         }
+    .main .wlcm2 img{
+            height:320px;
+            margin-left: 15px;
+            margin-bottom: 180px;
+            margin-top: -60px;
+        }
         
     .main .category-box{
         display: flex;
         flex-direction: column;
         }
+    .main .category-box img{
+        width: 360px;
+    }
     .heading3{
-            margin-top: 250px;
+            margin-top: 60px;
         }
         
     .rv{
