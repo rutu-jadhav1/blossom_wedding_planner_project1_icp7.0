@@ -1,46 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
 body{
-    background-color: #e4bdda;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: #3E2922;
-    height: 30px;
-    margin: -10px -10px;
-    padding: 0px 20px 22px 16px; 
-}
-.logo{
-    border-radius: 60%;
-}
-.brand-name{
-    margin-left: -360px;
-    margin-top: 20px;
-    color: #E57734;
-    font-weight: bold;
-    font-family: 'Lora', serif;
-  
-}
-.navbar ul{
-    list-style: none; 
-}
-nav ul{
-    display: flex;
-    gap: 25px;   
-}
-.name{
-    color: #E57734;
-    font-family: 'Lora', serif;
-}
-.name:hover{
-    color: #F6C0A6;
-    font-weight: bold;
-}
-.nav-n{
-    font-family: 'Playfair Display', serif;
-    text-decoration: none;
-    font-size: 22px;
+    background-color:#f8ebcf;
 }
 .main{
    
@@ -54,10 +17,10 @@ h1{
     font-size: 48px;
 }
 p{
-    font-family: 'Playfair Display', serif;
-    color: #b30047;
+    font-family: 'Lora', serif;
+    color:#3E2922;
     text-align: center;
-    font-size:17px;
+    font-size:20px;
 }
 .main .category-box{
     display: flex;
@@ -73,7 +36,7 @@ p{
     color: #4d001f;
 }
 .img1:hover:hover{
-    box-shadow: rgb(93, 168, 234) 3px 3px 6px 0px inset, rgba(91, 83, 206, 0.678) -3px -3px 6px 1px inset;
+    box-shadow: 0 0 6px 3px #4d001f;
    
 }
 .img2{
@@ -86,60 +49,70 @@ p{
     color: #4d001f;
 }
 .img2:hover:hover{
-    box-shadow: rgb(93, 168, 234) 3px 3px 6px 0px inset, rgba(91, 83, 206, 0.678) -3px -3px 6px 1px inset;
+    box-shadow: 0 0 6px 3px #4d001f;
 }
 
+.service {
+    margin-top: -20px;
+    background-color:#f8ebcf;
+}
 
-
-
-
-
-.ft{
-    margin-top: 10px;
-    font-family: 'Lora', serif;
-    background-color: #c5a3d7;
+.services-row {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 3px 3px;
-    color: #b30047;
-    margin-left: -10px;
-    margin-right: -10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
 }
-.ft .description{
-    font-size:19px;
+
+.services-col {
+    width: 300px;
+    height: 390px;
+    color: rgb(236, 68, 90);
+    background: url("back-2.png");
+    background-color:#f8ebcf;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    flex: 0 15rem;
+    padding: 1.2rem;
+    margin: 0.5rem;
+    display: inline-block;
 }
-.description-f{
-    font-size: 16px;
+.services-col :hover{
+    transition: 1.5s;
+    margin-top: -20px;
+    box-shadow: 0 0 6px 3px #3E2922;
 }
-.ft .address{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+
+
+.services-col i {
+    padding: 2.2rem;
+    border: none;
+    background: aliceblue;
+    color:#4d001f ;
+    border-radius: 5rem;
+    font-size: 2.8rem;
 }
-.ft .address .mp{
-    text-decoration: none;
+
+.services-col h2 {
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #000;
 }
-.ft .call-us{
-    text-align: left;
+
+.services-col p {
+    font-size: 1.2rem;
+    color: #000;
 }
-.ft .call-us .cnt{
-    text-decoration: none;
+
+@media (max-width:767px) {
+    .service {
+        margin-bottom: 30rem;
+    }
 }
-.ft .mail{
-    text-align: left;
-}
-.ft .mail .ml{
-    text-decoration: none;
-}
-.ft2{
-    font-family: 'Lora', serif;
-    background-color: #c5a3d7;
-    color: #b30047;
-    font-size: 16px;
-    text-align: center;
-    padding-bottom: 5px;
-    margin-bottom: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
+
+
+
+
