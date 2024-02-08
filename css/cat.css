@@ -30,6 +30,7 @@ p{
 .discription{
     font-family: 'Lora', serif;
     font-size:20px;
+   
 }
 .pkg{
     color:#3E2922;
@@ -69,6 +70,44 @@ p{
 }
 .decoration:hover{
     box-shadow: 0 0 6px 3px #3E2922;
+    border-radius:10px;
+}
+.frame{
+  text-align: center;
+}
+a{
+    text-decoration:none;
+    color:#3E2922;
+    font-size:20px;
+    background-color: #E57734;
+}
+.deco{
+    height:180px;
+    margin:15px;
+    justify-content: space-around;
+    display:inline-block;
+    flex-direction:row;
+
+}
+.deco:hover{
+    box-shadow: 0 0 6px 3px #3E2922;
+    border-radius:10px;
+}
+.btn{
+    height:21px;
+    border:none;
+    color:white;
+    background-color: #b30077;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    font-size: 25px;
+    height: 40px;
+    width: 150px;
+    margin: 15px 0px 10px 125px;
+}
+
+.btn:hover{
+    background-color:#ff4d94;
+    transition: 1.5s;
     border-radius:10px;
 }
 
