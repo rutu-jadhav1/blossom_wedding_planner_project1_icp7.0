@@ -2,22 +2,34 @@
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
-    box-shadow: 0 0 10px 5px #d0abe4;
+    box-shadow: 0 0 10px 0px #4d001f;
 }
-.heading1{
-    color:#4d001f;
-    font-size: 40px;
+.heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 45px;
+}
+.pkg-p1{
+    font-family: 'Protest Riot',serif;
+    width: 600px;
+    color:#3e2922;
+    font-size: 30px;
 }
 .pkg-heading2{
     
-    background-color:#b30077;
-    color: white;
-
+    font-family: 'Lora',serif;
+    font-size: 18px;
+    height:20px;
+    width: 350px;
+    color:#3E2922;
+    background-color:#ef7743;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    padding: 6px 6px;
 }
 .div{
     text-align: center;
@@ -28,14 +40,15 @@
     margin-bottom: 5px;
 }
 .price-btn{
-    height:25px;
+    height:30px;
     width: 200px;
-    border:none;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    border:1.5px solid #ef7743;
     color:white;
-    padding-bottom: 5px 5px;
-    background-color: #b30077;
-    box-shadow: 2px 2px 2px 0 #4d001f ;
-    font-size: 20px;
+    background-color:#3e2922 ;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    
 }
 .price-btn-display{
     display: flex;
@@ -60,9 +73,8 @@
     margin-top: 40px;
 }
 .div-box1{
-    width: 250px;
-    height: 200px;
-    padding: 20px 20px;
+    width: 400px;
+    padding: 5px 5px;
 }
 .pkg-container{
     padding: 20px 20px;
@@ -77,10 +89,11 @@
     justify-content:left;
 }
 .pkg-container2{
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content:left;
-    margin-left: 40px;
+    margin-left: 20px;
 
 }
 .haldi-div{
@@ -99,16 +112,40 @@
 
 }
 .book-btn{
-    height:26px;
-    width: 190px;
-    border:none;
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #ef7743;
     color:white;
-    background-color: #b30077;
+    background-color:#3e2922 ;
     box-shadow: 2px 2px 2px 0 #4d001f;
-    margin-top: 50px;
+    margin-top: 30px;
+    
 }
 .book-btn:hover{
-    background-color:#ff4d94;
-    transition:2s;
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
     border-radius:10px;
+    color:#3e2922;
 }
+.pkg-h4{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    color:#3E2922;
+}
+.pkg-paragraph{
+    font-size: 15px;
+    text-align: left;
+    width: 350px;
+
+}
+.pkg-li{
+    margin-bottom: 10px;
+
+}
+
+
+
