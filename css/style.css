@@ -246,3 +246,8 @@ p{
     padding: 40px 20px;
 }
 }
+.rv .rv-d:hover{
+    transition: 1.5s;
+    margin-top: -20px;
+    box-shadow: 0 0 6px 3px #3E2922;
+}
