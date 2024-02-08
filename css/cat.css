@@ -25,23 +25,30 @@ p{
 }
 .pck_img:hover{
     box-shadow: 0 0 6px 3px #3E2922;
-
+    border-radius:10px;
 }
 .discription{
     font-family: 'Lora', serif;
     font-size:40px;
+    margin-left:300px;
    
 }
+
 .pkg{
     color:#3E2922;
     padding:-100px -20px;
     font-family: 'Lora', serif;
+    margin-left:120px;
    
 }
 .desc{
     height:350px;border:none;
     border-radius:5px;
     font-family: 'Lora', serif;
+    margin-left:100px;
+}
+table{
+    height:400px;width:900px;
 }
 .album{
     margin:15px;
@@ -52,8 +59,8 @@ p{
     border-radius:10px;
 }
 .decor{
-    height:235px;
-    margin:9px;
+    height:230px;
+    margin:10px;
     justify-content: space-around;
 }
 .decor:hover{
@@ -115,6 +122,24 @@ a{
     border-radius:10px;
     color:#3e2922;
 }
-body{
-    padding-left:10px;
+.describe{
+    display:flex;
+    justify-content:center;
+
+}
+.des2{
+    font-family: 'Lora', serif;
+    font-size:15px;
+    width:330px;
+    margin-left:50px;
+    padding-top:20px;
+}
+.pack{
+    font-size: 20px;
+    text-align: center;
+    width: 350px;
+
+}
+.pck_img{
+    margin-left:50px;
 }
