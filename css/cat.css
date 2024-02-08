@@ -25,7 +25,7 @@ p{
 }
 .pck_img:hover{
     box-shadow: 0 0 6px 3px #3E2922;
-    border-radius:10px;
+
 }
 .discription{
     font-family: 'Lora', serif;
@@ -52,8 +52,8 @@ p{
     border-radius:10px;
 }
 .decor{
-    height:200px;
-    margin:20px;
+    height:235px;
+    margin:9px;
     justify-content: space-around;
 }
 .decor:hover{
@@ -61,7 +61,7 @@ p{
     border-radius:10px;
 }
 .decoration{
-    height:185px;
+    height:230px;
     margin:20px;
     justify-content: space-around;
     display:inline-block;
@@ -82,8 +82,8 @@ a{
     background-color: #E57734;
 }
 .deco{
-    height:180px;
-    margin:15px;
+    height:200px;
+    margin:10px;
     justify-content: space-around;
     display:inline-block;
     flex-direction:row;
@@ -93,21 +93,28 @@ a{
     box-shadow: 0 0 6px 3px #3E2922;
     border-radius:10px;
 }
+
+
 .btn{
-    height:21px;
-    border:none;
+    
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #ef7743;
     color:white;
-    background-color: #b30077;
+    background-color:#3e2922 ;
     box-shadow: 2px 2px 2px 0 #4d001f;
-    font-size: 25px;
-    height: 40px;
-    width: 150px;
-    margin: 15px 0px 10px 125px;
+    margin-top: 30px;
+    
 }
-
 .btn:hover{
-    background-color:#ff4d94;
-    transition: 1.5s;
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
     border-radius:10px;
+    color:#3e2922;
 }
-
+body{
+    padding-left:10px;
+}
