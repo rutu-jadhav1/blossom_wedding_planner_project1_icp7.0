@@ -42,7 +42,6 @@ css: .btn{
 body{
     background-color: #F8EBCF;
 }
-<<<<<<< HEAD
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -85,8 +84,6 @@ nav ul{
     font-size: 22px;
 }
 
-=======
->>>>>>> f7d029bc4a751cee8f29992d1ac8dcde3f2ba964
 .main .heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
@@ -254,7 +251,6 @@ p{
     box-shadow: 0 0 6px 3px #3E2922;
 }
 
-<<<<<<< HEAD
 .ft2{
     font-family: 'Lora', serif;
     color: #E57734;
@@ -266,42 +262,4 @@ p{
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
-=======
-
-
-@media screen and (max-width: 648px) {
-    .main .wlcm{
-        display: flex;
-        flex-direction: column;
-        height: 650px;
-        width: 350px;
-        margin-top: 220px;
-    }   
-.main .wlcm1{
-    width: 380px;
-    height: 800px;
-    padding-top: 30px;
-    }
-.main .wlcm2{
-    width: 60px;
-    height: 800px;
-    margin-top: 10px;
-    }
-    
-.main .category-box{
-    display: flex;
-    flex-direction: column;
-    }
-
-    .heading3{
-        margin-top: 250px;
-    }
-    
-.rv{
-    display: flex;
-    flex-direction: column;
-    margin: 15px 40px;
-    padding: 40px 20px;
->>>>>>> f7d029bc4a751cee8f29992d1ac8dcde3f2ba964
-}
 }
