@@ -16,7 +16,7 @@ h1{
     text-align: center;
     font-size: 48px;
     top: 18px;
-    position: 18px;
+    position:relative;
 }
 p{
     font-family: 'Lora', serif;
@@ -29,29 +29,31 @@ p{
     justify-content: center;
 }
 .img1{
+    font-family: 'Lora', serif;
     display: inline-block;
-    margin: 30px 40px;
-    border: none ;
+    margin: 20px 40px;
+    border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
+    font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #c5a3d7;
-    color: #4d001f;
+    color:#3E2922;
 }
 .img1:hover:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: 0 0 6px 3px #3E2922;
    
 }
 .img2{
-    display:inline-block;
+    font-family: 'Lora', serif;
+    display: inline-block;
     margin: 20px 40px;
-    border:none;
+    border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
+    font-size: 18px;
     text-align: center;
-    box-shadow: 0 0 10px 3px #c5a3d7;
-    color: #4d001f;
+    color:#3E2922;
 }
 .img2:hover:hover{
-    box-shadow: 0 0 6px 3px #4d001f;
+    box-shadow: 0 0 6px 3px #3E2922;
 }
 
 .service {
@@ -151,4 +153,13 @@ p{
     transition: 1.5s;
     margin-top: -20px;
     box-shadow: 0 0 6px 3px #3E2922;
+}
+ .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+ .social .social-icon{
+   padding: 50px 40px;
 }
