@@ -19,16 +19,21 @@
 /* 
 html: <button class="btn">Submit</button>
 css: .btn{
-        height:21px;
-        border:none;
+        font-family: 'Lora', serif;
+        font-size: 22px;
+        height:34px;
+        width: 194px;
+        border:1.5px solid #E57734;
         color:white;
-        background-color: #b30077;
+        background-color: #3e2922;
         box-shadow: 2px 2px 2px 0 #4d001f;
     }
     .btn:hover{
-        background-color:#ff4d94;
-        transition:1s;
+        background-color:#ef7743;
+        border:2px solid #4d001f;
+        transition:1.5s;
         border-radius:10px;
+        color:#3e2922;
     }
 */
 
@@ -37,6 +42,7 @@ css: .btn{
 body{
     background-color: #F8EBCF;
 }
+<<<<<<< HEAD
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -79,6 +85,8 @@ nav ul{
     font-size: 22px;
 }
 
+=======
+>>>>>>> f7d029bc4a751cee8f29992d1ac8dcde3f2ba964
 .main .heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
@@ -121,14 +129,78 @@ p{
     color:#3E2922;
     text-align: center;
     font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.main .wlcm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 800px;
+   
+}
+.main .wlcm1{
+    width: 900px;
+    height: 500px;
+    margin: 94px 80px;
+    padding-top: 50px;
+}
+.main .wlcm .wlcm-des{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.main .wlcm1 .wlcm-des1{
+    font-size: 25px;
+    font-family: 'Lora', serif;
+    padding-top: 50px;
+}
+.btn{
+    
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    height:34px;
+    width: 194px;
+    border:1.5px solid #ef7743;
+    color:white;
+    background-color:#3e2922 ;
+    box-shadow: 2px 2px 2px 0 #4d001f;
+    margin-top: 30px;
+    
+}
+.btn:hover{
+    background-color:#ef7743;
+    border:2px solid #4d001f;
+    transition:1.5s;
+    border-radius:10px;
+    color:#3e2922;
+}
+.main .wlcm2{
+    width: 80px;
+    height: 500px;
+   margin: 80px 0px;
+ 
+}
+.heading3{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    color:#3E2922;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 80px;
 }
 .main .category-box{
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 .img{
     font-family: 'Lora', serif;
-    display: inline-block;
     margin: 20px 40px;
     border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
@@ -153,64 +225,36 @@ p{
 .img1:hover{
     box-shadow: 0 0 6px 3px #3E2922;
 }
-.f{
-    background-color: #3E2922;
-    text-align: center;
-    color:#E57734;
-    font-weight: bolder;
-    font-size: 17px;
-    font-family: 'Lora', serif;
-    padding: 5px 5px;
-    margin-bottom: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.ft{
-    margin-top: 10px;
-    font-family: 'Lora', serif;
-    background-color: #3E2922;
-    border-top:1px solid #F8EBCF;
+
+.rv{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    padding: 4px 4px;
-    color:#E57734;
-    margin-left: -10px;
-    margin-right: -10px;
 }
-.ft .description{
-    font-size:19px;
-    color:#F8EBCF;
+.main .rv .rv-d{
+    width: 300px;
+    height: 390px;
+    font-family: 'Lora', serif;
+    margin: 10px 10px;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 20px 20px;
+    font-size: 18px;
+    text-align: center;
+    color:#3E2922;
 }
-.description-f{
-    font-size: 16px;
-    color:#E57734;
+.main .rv .rv-d .rv-des{
+    font-size: 14px;
+    text-align: start;
 }
-.ft .address{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color:#E57734;
+.main .rv .rv-d .rv-d2{
+    margin-bottom: -500px;
 }
-.ft .address .mp{
-    text-decoration: none;
-     color:#F8EBCF;
-}
-.ft .call-us{
-    text-align: left;
-}
-.ft .call-us .cnt{
-    text-decoration: none;
-    color:#F8EBCF;
-}
-.ft .mail{
-    text-align: left;
-}
-.ft .mail .ml{
-    text-decoration: none;
-    color:#F8EBCF;
+.main .rv .rv-d:hover{
+    transition: 1.5s;
+    margin-top: -20px;
+    box-shadow: 0 0 6px 3px #3E2922;
 }
 
+<<<<<<< HEAD
 .ft2{
     font-family: 'Lora', serif;
     color: #E57734;
@@ -222,4 +266,42 @@ p{
     margin-bottom: -10px;
     margin-left: -10px;
     margin-right: -10px;
+=======
+
+
+@media screen and (max-width: 648px) {
+    .main .wlcm{
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+        width: 350px;
+        margin-top: 220px;
+    }   
+.main .wlcm1{
+    width: 380px;
+    height: 800px;
+    padding-top: 30px;
+    }
+.main .wlcm2{
+    width: 60px;
+    height: 800px;
+    margin-top: 10px;
+    }
+    
+.main .category-box{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .heading3{
+        margin-top: 250px;
+    }
+    
+.rv{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 40px;
+    padding: 40px 20px;
+>>>>>>> f7d029bc4a751cee8f29992d1ac8dcde3f2ba964
+}
 }
