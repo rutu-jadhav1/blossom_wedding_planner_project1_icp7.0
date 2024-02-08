@@ -49,6 +49,8 @@ body{
     color:#3E2922;
     text-align: center;
     font-size: 45px;
+    position: relative;
+    top: 18px;
     
 }
 p{
@@ -87,6 +89,7 @@ p{
     margin-bottom: 30px;
     margin-top: 40px;
 }
+
 .main .wlcm{
     display: flex;
     flex-direction: row;
@@ -146,16 +149,16 @@ p{
     color:#3E2922;
     text-align: center;
     font-size: 35px;
-    margin-bottom: 30px;
-    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 .main .category-box{
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 .img{
     font-family: 'Lora', serif;
+    display: inline-block;
     margin: 20px 40px;
     border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
@@ -208,7 +211,15 @@ p{
     margin-top: -20px;
     box-shadow: 0 0 6px 3px #3E2922;
 }
-
+.main .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+.main .social .social-icon{
+   padding: 50px 40px;
+}
 
 
 @media screen and (max-width: 648px) {
@@ -219,30 +230,29 @@ p{
         width: 350px;
         margin-top: 220px;
     }   
-.main .wlcm1{
-    width: 380px;
-    height: 800px;
-    padding-top: 30px;
-    }
-.main .wlcm2{
-    width: 60px;
-    height: 800px;
-    margin-top: 10px;
-    }
-    
-.main .category-box{
-    display: flex;
-    flex-direction: column;
-    }
-
+    .main .wlcm1{
+        width: 380px;
+        height: 800px;
+        padding-top: 30px;
+        }
+    .main .wlcm2{
+        width: 60px;
+        height: 800px;
+        margin-top: 10px;
+        }
+        
+    .main .category-box{
+        display: flex;
+        flex-direction: column;
+        }
     .heading3{
-        margin-top: 250px;
+            margin-top: 250px;
+        }
+        
+    .rv{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 40px;
+        padding: 40px 20px;
     }
-    
-.rv{
-    display: flex;
-    flex-direction: column;
-    margin: 15px 40px;
-    padding: 40px 20px;
-}
 }
