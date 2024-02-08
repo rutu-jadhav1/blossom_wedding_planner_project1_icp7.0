@@ -2,6 +2,16 @@ marquee{
     color:#3E2922;
     font-size:20px;
     background-color:#E57734;
+    font-family: 'Lora', serif;
+}
+.heading{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+}
+p{
+    font-family: 'Lora', serif;
+
 }
 .pck_img{
     font-family: 'Lora', serif;
@@ -11,6 +21,7 @@ marquee{
     font-size: 10px;
     text-align: center;
     color:#3E2922;
+    height:300px;
 }
 .pck_img:hover{
     box-shadow: 0 0 6px 3px #3E2922;
@@ -36,6 +47,27 @@ marquee{
     justify-content: space-between;
 }
 .album:hover{
+    box-shadow: 0 0 6px 3px #3E2922;
+    border-radius:10px;
+}
+.decor{
+    height:200px;
+    margin:20px;
+    justify-content: space-around;
+}
+.decor:hover{
+    box-shadow: 0 0 6px 3px #3E2922;
+    border-radius:10px;
+}
+.decoration{
+    height:185px;
+    margin:20px;
+    justify-content: space-around;
+    display:inline-block;
+    flex-direction:row;
+
+}
+.decoration:hover{
     box-shadow: 0 0 6px 3px #3E2922;
     border-radius:10px;
 }
