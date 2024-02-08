@@ -49,6 +49,8 @@ body{
     color:#3E2922;
     text-align: center;
     font-size: 45px;
+    position: relative;
+    top: 16px;
     
 }
 p{
@@ -87,6 +89,7 @@ p{
     margin-bottom: 30px;
     margin-top: 40px;
 }
+
 .main .wlcm{
     display: flex;
     flex-direction: row;
