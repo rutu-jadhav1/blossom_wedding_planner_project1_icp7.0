@@ -50,6 +50,7 @@ color:#3e2922;
 {
     width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 60px;
@@ -185,4 +186,27 @@ h3{
     border: none;
     border-bottom: 2px solid black;
     outline: none;
+}
+@media screen and (max-width: 648px){
+    .container{
+        width: 50%;
+        flex-direction: column;
+        padding-right: 80px;
+        margin-left: 80px;
+    }
+    .container .contactform{
+        width: 200%;
+        min-height: 250px;
+        margin-top: 15px;
+        
+    }
+    .container .contactform .inputbox textarea{
+         width: 90%;
+    }
+    .container .contactform .inputbox{
+        width: 80%;
+    }
+    .Contact .content h2{
+        margin-top: 15px;
+    }
 }
