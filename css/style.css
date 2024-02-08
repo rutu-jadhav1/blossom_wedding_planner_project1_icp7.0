@@ -246,4 +246,19 @@ p{
         margin: 15px 40px;
         padding: 40px 20px;
     }
+<<<<<<< HEAD
+    
+.rv{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 40px;
+    padding: 40px 20px;
+}
+}
+.rv .rv-d:hover{
+    transition: 1.5s;
+    margin-top: -20px;
+    box-shadow: 0 0 6px 3px #3E2922;
+=======
+>>>>>>> 94d722d3b6826e9b1de1092ea44101e33f366aef
 }
