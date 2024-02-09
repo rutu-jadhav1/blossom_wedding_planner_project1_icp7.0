@@ -7,12 +7,14 @@
     color:#3E2922;
     margin: 60px 0px 0px 800px;
     font-size: 45px;
+    position: relative;
+    top: 18px;
 }
 
 .sub-reg{
     height: 750px;
     width: 400px;
-    background-color: #d9d9d9;
+    background-color: #ea9159;
     border-radius: 50px 0px 50px 0px;
     margin: 50px 0px 80px 680px;
     box-shadow: 2px 2px 7px 1px #4d001f;
@@ -63,7 +65,7 @@
 
 .create-acc a{
     text-decoration: none;
-    color:#E57734;
+    color:#3e2922;
 }
 
 /* media query */
