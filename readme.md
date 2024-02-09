@@ -1,11 +1,12 @@
 # Project-Name: blossom_wedding_planner_project1_icp7.0
+
 ---
 # Project-Title: Blossom Wedding Planner 💞✨
+
 ---
 Welcome to G-18 Html & CSS First Project . **Blossom Wedding Planner** ,where dreams unfold into seamless celebrations.Our wedding management services blend creativity and precision to craft your perfect day. From meticulous planning to flawless execution,trust us to turn your vision into an enchanting reality.
 
 This Project is simply made by using HTML & CSS. Weather you are Beginner Student to coding or Web Development this repository will be your go to resource for HTML and CSS.
-
 ---
 ## Features
 1. Expert in Plannig & Designing
@@ -14,7 +15,6 @@ This Project is simply made by using HTML & CSS. Weather you are Beginner Studen
 4. Affordable Pricing
 5. Descent Organizing
 ---
-
 ### Home Page
 ![Home Page](./img/home-ss.png)
 ---
@@ -36,7 +36,6 @@ We welcome contributions from the community to help us expand and improve this h
 3. Open pull request in this repository.
 
 ---
-
 ## Contributors
 
 <a href="https://github.com/rutu-jadhav1/blossom_wedding_planner_project1_icp7.0/graphs/contributors">
