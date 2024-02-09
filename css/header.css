@@ -19,7 +19,7 @@
     padding-top: 2px;
 }
 .brand-name{
-    margin-left: -350px;
+    margin-left: -450px;
     margin-top: 20px;
     color:#E57734;
     font-weight: bold;
@@ -46,26 +46,62 @@ nav ul{
     font-size: 22px;
 }
 
-@media screen and (max-width: 648px) {
+/* media query */
+@media screen and (min-width: 992px) and (max-width: 1300px) {
     .navbar{
-     height: 20px;
-     margin: -15px -15px;
-     padding: 0px 28px 25px 10px; 
+        min-width: 993px;
+        max-width: 1300px;
     }
     .brand-name{
-        margin-left: -1px;
-        margin-top: 5px;
-        padding: 5px 5px;
-        font-size: 11px;
+        font-size: 15px;
+        margin-left: -520px;
     }
     nav ul{
-        gap:15px;   
+        display: flex;
+        gap: 15px;   
     }
     .nav-n{
-        margin-top: 0px;
-        font-size: 11px;
-    }
-    .logo{
-        height: 35px;
+        padding-top: 6px;
+        font-size: 15px;
     }
  }
+ @media screen and (min-width: 768px) and (max-width: 991px){
+    .navbar{
+        min-width: 768px;
+        max-width: 991px;
+    }
+    .brand-name{
+        padding-top: 6px;
+        font-size: 13px;
+        margin-left: -300px;
+    }
+    nav ul{
+        display: flex;
+        gap: 8px;   
+    }
+    .nav-n{
+        padding-top: 10px;
+        font-size: 13px;
+    }  
+ }
+ 
+@media screen and (min-width: 601px) and (max-width: 767px){
+    .navbar{
+        min-width: 601px;
+        max-width: 767px;
+    }
+    .brand-name{
+        padding-top: 6px;
+        margin-left: -160px;
+        font-size: 12px;
+    }
+    nav ul{
+        display: flex;
+        gap: 8px;   
+    }
+    .nav-n{
+        padding-top: 10px;
+        font-size: 11px;
+    } 
+}
+
