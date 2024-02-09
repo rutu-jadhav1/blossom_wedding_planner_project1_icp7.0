@@ -73,6 +73,7 @@
     margin-right: -10px;
 }
 
+/* media query */
 @media screen and (min-width: 992px) and (max-width: 1300px){
     .footr{
         min-width: 993px;
