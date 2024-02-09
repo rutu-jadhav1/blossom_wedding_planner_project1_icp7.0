@@ -1,3 +1,6 @@
+.footr{
+    width: 1478px;
+}
 .f{
     background-color: #3E2922;
     text-align: center;
@@ -70,22 +73,69 @@
     margin-right: -10px;
 }
 
-@media screen and (max-width: 648px){
-    
-.ft .description{
-    font-size:10px;
+@media screen and (min-width: 992px) and (max-width: 1300px){
+    .footr{
+        min-width: 993px;
+        max-width: 1300px;
+    }
+    .ft .description{
+        font-size:10px;
+    }
+    .description-f{
+        font-size: 8px;
+    }
+    .ft .address {
+        font-size: 14px;
+    }
+    .ft .call-us{
+        font-size: 14px;
+    }
+    .ft .mail {
+        font-size: 12px;
+    }
 }
 
-.description-f{
-    font-size: 8px;
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .footr{
+        min-width: 768px;
+        max-width: 991px;
+    }
+    .ft .description{
+        font-size:10px;
+    }
+    .description-f{
+        font-size: 8px;
+    }
+    .ft .address {
+        font-size: 14px;
+    }
+    .ft .call-us{
+        font-size: 14px;
+    }
+    .ft .mail {
+        font-size: 12px;
+    }
 }
-.ft .address {
-    font-size: 14px;
+ 
+@media screen and (min-width: 601px) and (max-width: 767px){
+    .footr{
+        min-width: 601px;
+        max-width: 767px;
+    }
+    .ft .description{
+        font-size:10px;
+    }
+    .description-f{
+        font-size: 8px;
+    }
+    .ft .address {
+        font-size: 14px;
+    }
+    .ft .call-us{
+        font-size: 14px;
+    }
+    .ft .mail {
+        font-size: 12px;
+    }
 }
-.ft .call-us{
-    font-size: 14px;
-}
-.ft .mail {
-    font-size: 12px;
-}
-}
+
