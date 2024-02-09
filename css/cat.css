@@ -4,11 +4,28 @@ marquee{
     background-color:#E57734;
     font-family: 'Lora', serif;
 }
+.nav-nav{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 22px;
+}
+.name1{
+    color:#E57734;
+    font-family: 'Lora', serif;
+    text-decoration: none;
+}
+.name1:hover{
+    color: #ffffff;
+    font-weight: bolder;
+}
 .heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
+    position: relative;
+    top:18px;
 }
+
 p{
     font-family: 'Lora', serif;
 
@@ -30,7 +47,7 @@ p{
 .discription{
     font-family: 'Lora', serif;
     font-size:40px;
-    margin-left:300px;
+    justify-content: center;
    
 }
 
@@ -59,8 +76,8 @@ table{
     border-radius:10px;
 }
 .decor{
-    height:230px;
-    margin:10px;
+    height:240px;
+    margin:20px;
     justify-content: space-around;
 }
 .decor:hover{
@@ -69,7 +86,7 @@ table{
 }
 .decoration{
     height:230px;
-    margin:20px;
+    margin:35px;
     justify-content: space-around;
     display:inline-block;
     flex-direction:row;
@@ -78,6 +95,9 @@ table{
 .decoration:hover{
     box-shadow: 0 0 6px 3px #3E2922;
     border-radius:10px;
+    margin:30px;
+    justify-content:space-around;
+    
 }
 .frame{
   text-align: center;
@@ -90,8 +110,8 @@ a{
 }
 .deco{
     height:200px;
-    margin:10px;
-    justify-content: space-around;
+    margin:20px;
+    justify-content: space-between;
     display:inline-block;
     flex-direction:row;
 
@@ -140,6 +160,41 @@ a{
     width: 350px;
 
 }
+.cnt{
+    background-color:#3e2922;
+}
+.mp{
+    background-color:#3e2922;
+}
+.ml{
+    background-color:#3e2922;
+}
 .pck_img{
     margin-left:50px;
+}
+
+.navbar{
+    text-decoration:none;
+}
+
+@media screen and (max-width: 648px)
+{
+    .describe{
+        flex-direction: column;
+    }
+    iframe{
+        visibility:none;
+
+
+    }
+    .decoration{
+       
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: start;
+    }
+    .ifr{
+        width:250px ;height:1350px;
+    }
 }

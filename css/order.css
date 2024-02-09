@@ -1,0 +1,21 @@
+.sign_heading{
+    font-family: 'EB Garamond', serif;
+    font-family:  'Pacifico', 'cursive';
+    font-family: 'Protest Riot', sans-serif;
+    position: relative;
+    top:-20px; left:-190px;
+}
+.sub-reg{
+    background-color: #F8EBCF;
+    border:2px solid #3e2922;
+    
+}
+.slowgan1{
+    color:#3E2922;
+    font-weight: 600;
+}
+p{
+    font-family: 'Lora', serif;
+
+
+}
