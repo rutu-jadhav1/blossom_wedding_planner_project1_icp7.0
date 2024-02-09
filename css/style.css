@@ -94,7 +94,8 @@ nav ul{
     color:#3E2922;
     text-align: center;
     font-size: 45px;
-    
+    position: relative;
+    top: 30px;    
 }
 p{
     font-family: 'Lora', serif;
@@ -114,7 +115,9 @@ p{
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
+  
 }
+
 .main .gallary img{
     background-color: #F8EBCF;
     border: 1px solid #3E2922 ;
@@ -132,6 +135,7 @@ p{
     margin-bottom: 30px;
     margin-top: 40px;
 }
+
 .main .wlcm{
     display: flex;
     flex-direction: row;
@@ -191,8 +195,8 @@ p{
     color:#3E2922;
     text-align: center;
     font-size: 35px;
-    margin-bottom: 30px;
-    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-top: 70px;
 }
 .main .category-box{
     display: flex;
@@ -234,7 +238,7 @@ p{
     width: 300px;
     height: 390px;
     font-family: 'Lora', serif;
-    margin: 10px 10px;
+    margin: 10px 14px;
     border: 2px solid rgb(51, 49, 49);
     padding: 20px 20px;
     font-size: 18px;
@@ -252,6 +256,15 @@ p{
     transition: 1.5s;
     margin-top: -20px;
     box-shadow: 0 0 6px 3px #3E2922;
+}
+.main .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -40px;
+}
+.main .social .social-icon{
+   padding: 50px 40px;
 }
 
 <<<<<<< HEAD
@@ -277,10 +290,46 @@ p{
         width: 350px;
         margin-top: 220px;
     }   
+<<<<<<< HEAD
 .main .wlcm1{
     width: 380px;
     height: 800px;
     padding-top: 30px;
+=======
+    .main .wlcm1{
+        width: 380px;
+        height: 800px;
+        padding-top: 30px;
+        }
+    .main .wlcm2{
+        width: 60px;
+        height: 800px;
+        margin-top: 10px;
+        }
+    .main .wlcm2 img{
+            height:320px;
+            margin-left: 15px;
+            margin-bottom: 180px;
+            margin-top: -60px;
+        }
+        
+    .main .category-box{
+        display: flex;
+        flex-direction: column;
+        }
+    .main .category-box img{
+        width: 360px;
+    }
+    .heading3{
+            margin-top: 60px;
+        }
+        
+    .rv{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 40px;
+        padding: 40px 20px;
+>>>>>>> 753161a279bb7eb81eda2229d589561a61c79dcc
     }
 .main .wlcm2{
     width: 60px;
