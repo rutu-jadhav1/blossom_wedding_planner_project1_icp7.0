@@ -5,6 +5,9 @@
     margin-top: 30px;
     padding: 10px;
     box-shadow: 0 0 10px 0px #4d001f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .heading{
     font-family: 'EB Garamond', serif;
@@ -77,16 +80,16 @@
     padding: 5px 5px;
 }
 .pkg-container{
-    padding: 20px 20px;
+    padding: 5px 5px;
     display: flex;
     flex-direction: row;
     justify-content:left;
 }
 .pkg-container1{
-    padding: 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content:left;
+    
 }
 .pkg-container2{
     width: 400px;
@@ -146,6 +149,146 @@
     margin-bottom: 10px;
 
 }
-
-
-
+@media screen and (min-width: 992px) and (max-width: 1089px)
+{
+    .package{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .pkg-container{
+        padding: 5px 5px;
+    }
+    .pkg-container1{
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+    }
+    .div-box{
+        box-shadow: 0 0 10px 5px #4d001f;
+        color: #4d001f;
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        margin: 10px 10px;
+    }
+    .pkg-img{
+        width: 100%;
+        height: 180px;
+        margin-bottom: 5px;
+    }
+    .pkg-container2{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+    
+    }
+    .pkg-p1{
+        width: 500px;
+        font-size: 25px;
+    }
+    .pkg-paragraph{
+        width: 330px;
+    
+    }
+    .pkg-heading2{
+        font-size: 20px;
+        height:20px;
+        width: 350px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .pkg-container{
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 767px)
+{
+    .pkg-container{
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .package{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (min-width: 601px) and (max-width: 680px)
+{
+    .pkg-container{
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pkg-p1{
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+    }
+    .img-div2{
+     padding-left: 20px;
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .pkg-container{
+        padding: 5px 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pkg-p1{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        }
+    .package{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .img-div1{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        
+    
+    }
+    .img-div2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding-left: 0px;
+    }
+    .pkg-container2{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content:left;
+    
+    }
+    .pkg-p1{
+        width: 300px;
+        font-size: 18px;
+    }
+    .pkg-paragraph{
+        width: 300px;
+    
+    }
+    .pkg-heading2{
+        font-size: 20px;
+        height:20px;
+        width: 250px;
+    }
+}
