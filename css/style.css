@@ -345,7 +345,9 @@ p{
         margin-top: 10px;
         margin-left: 50px;
     }
-        
+    .main .cb{
+        margin-bottom: -260px;
+    }
     .main .category-box{
         display: flex;
         flex-direction: column;
@@ -354,12 +356,15 @@ p{
     }
     .heading3{
         margin-top: 350px;
+        
     }
     .rv{
         display: flex;
         flex-direction: column;
         width: fit-content;
         margin-left: 200px;
+        margin-bottom: -300px;
+    
     }
    
 }
