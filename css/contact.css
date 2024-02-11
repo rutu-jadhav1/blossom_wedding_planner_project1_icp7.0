@@ -227,6 +227,7 @@ h3{
         width: 200%;
         min-height: 400px;
         margin-bottom: 20px;
+        margin-left: 45px;
       
        
     }
@@ -249,7 +250,7 @@ h3{
        width: 80%;
    }
    .Contact .content h2 p{
-       margin-top: 200px;
+       margin-top: -200px;
    }
 
 }
