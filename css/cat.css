@@ -114,7 +114,6 @@ a{
     margin:20px;
     justify-content: space-between;
     display:inline-block;
-    flex-direction:row;
 
 }
 .deco:hover{
@@ -190,12 +189,14 @@ a{
     .main{
         min-width: 993px;
         max-width: 1300px;
+        margin-left:30px;
     }
     .describe{
         display:flex;
         flex-direction: column;
         justify-content:center;
         align-items: center;
+        margin-left:25px;
     }
     .heading{
         margin-right:400px;
@@ -216,10 +217,12 @@ a{
         justify-content: space-between;
     }
     .album{
-        padding:100px;
+        margin:100px;
         margin-left:20px;
         justify-content: center;
         align-items: center;
+        padding:center;
+        
     }
     .decoration{
         height:230px;
@@ -229,6 +232,28 @@ a{
         flex-direction:row;
     
     }
+    .ifr{
+        height:500px;
+        width:700px;
+        margin-top:-310px;
+        margin-left:170px;
+        
+    }
+        .deco{
+            height:200px;
+            display:flex;
+            flex-direction: column;
+            margin-left:-200px;
+            
+
+        
+        
+      
+    }
+    .album{
+        padding:200px;
+    }
+
     
    
     
@@ -258,10 +283,11 @@ a{
     .main{
         min-width: 768px;
         max-width: 991px;
+        margin-left:-100px;
     }
     p{
         width:540px;
-        margin-left:110px;
+        margin-left:240px;
     }
     .describe{
         display:flex;
@@ -287,6 +313,28 @@ a{
     .wed{
         visibility:hidden;
     }
+    .discription{
+        font-family: 'Lora', serif;
+        font-size:30px;
+        justify-content: center;
+        margin-left:150px;
+        
+       
+    }
+    .ifr{
+        margin-top:110px;
+        visibility:visible;
+        margin-top:-300px;
+        
+    }
+   
+  
+   .wed{
+       visibility:visible;
+       margin-left:150px;
+
+   }
+
 
 }
 @media screen and (min-width: 601px) and (max-width: 767px){
@@ -294,10 +342,11 @@ a{
 .main{
         min-width: 601px;
         max-width: 767px;
+        margin-left:-100px;
     }
     p{
         width:340px;
-        margin-left:100px;
+        margin-left:180px;
     }
     .describe{
         display:flex;
@@ -310,9 +359,16 @@ a{
         box-shadow: 0 0 6px 3px #3E2922;
         border-radius:10px;
     }
+    .classic{
+        margin:-550px 40px;
+    }
     .classic:hover{
         box-shadow: 0 0 6px 3px #3E2922;
         border-radius:10px;
         margin-top:-50px;
     }
+    .discription{
+        margin:-20px 80px;
+    }
+
 }
