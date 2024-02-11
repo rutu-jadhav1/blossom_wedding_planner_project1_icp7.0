@@ -1,23 +1,11 @@
+
 marquee{
     color:#3E2922;
     font-size:20px;
     background-color:#E57734;
     font-family: 'Lora', serif;
 }
-.nav-nav{
-    font-family: 'Playfair Display', serif;
-    text-decoration: none;
-    font-size: 22px;
-}
-.name1{
-    color:#E57734;
-    font-family: 'Lora', serif;
-    text-decoration: none;
-}
-.name1:hover{
-    color: #ffffff;
-    font-weight: bolder;
-}
+
 .heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
@@ -50,7 +38,9 @@ p{
     justify-content: center;
    
 }
-
+.wed{
+    margin-bottom: -8px;
+}
 
 .pkg{
     color:#3E2922;
@@ -103,12 +93,15 @@ table{
 .frame{
   text-align: center;
 }
-a{
+.as{
     text-decoration:none;
     color:#3E2922;
     font-size:20px;
     background-color: #E57734;
+    padding: 5px 5px;
+    margin-left: 8px;
 }
+
 .deco{
     height:200px;
     margin:20px;
@@ -178,6 +171,8 @@ a{
 }
 .ifr{
     margin-top:-450px;
+
+   
 }
 
 
@@ -186,6 +181,9 @@ a{
 /*Media query*/
 @media screen and (min-width: 992px) and (max-width: 1300px)
 {
+    .navbar{
+        background-color: #3E2922;
+    }
     .main{
         min-width: 993px;
         max-width: 1300px;
@@ -247,23 +245,17 @@ a{
             height:200px;
             display:flex;
             flex-direction: column;
-            margin-left:-200px;
-            
-
-        
-        
-      
-    }
+            margin-left:-200px;    }
     .album{
         padding:200px;
     }
-
-    
-   
-    
+  
 
 }
 @media screen and (max-width:991px){
+    .navbar{
+        background-color: #3E2922;
+    }
     .classic{
          visibility:visible;
     }
@@ -275,6 +267,9 @@ a{
     }
 } 
 @media screen and (min-width:768px){
+    .navbar{
+        background-color: #3E2922;
+    }
     .classic{
         visibility:hidden;
     }
@@ -284,6 +279,9 @@ a{
    
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
+    .navbar{
+        background-color: #3E2922;
+    }
     .main{
         min-width: 768px;
         max-width: 991px;
@@ -312,7 +310,7 @@ a{
         width:700px;
         height:500px;
         visibility:hidden;
-        background-image:(url"./../img/classic.avif");
+        background-image:url("./../img/classic.avif");
     }
     .wed{
         visibility:hidden;
