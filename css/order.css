@@ -78,3 +78,103 @@ p{
     border-radius:10px;
     color:#3e2922;
 }
+/*Media query*/
+@media screen and (min-width: 992px) and (max-width: 1300px)
+{
+    .sign_heading{
+        left:-300px;
+    
+    }
+    .sub-reg{
+        height: 700px;
+        width: 350px;
+        background-color: #ea9159;
+        border-radius: 50px 0px 50px 0px;
+        margin-left:300px;
+        box-shadow: 2px 2px 7px 1px #4d001f;
+    }
+    p{
+        width:600px;
+        margin-left:190px;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .sign_heading{
+        left:-440px;
+    }
+    .sub-reg{
+        height:640px;
+        width:300px;
+        margin-left:200px;
+        padding:-50px;
+    }
+    p{
+        width:500px;
+        margin-left:100px;
+    }
+    .reg-field{
+        font-size: 14px;
+        border-radius: 5px;
+        border: 1.5px solid #787777;
+        height: 40px;
+        width: 200px;
+        margin: 10px 0px 10px 70px;
+        background-color: #f8f9f9;
+        font-family: 'Playfair Display', serif;
+        box-shadow: 2px 2px 6px 0 #4d001f;
+    }
+    .btn{
+        font-size: 18px;
+        height:30px;
+        width: 170px;
+        margin-left:70px;
+
+    }
+    .reg-img{
+        height: 100px;
+        margin-left:120px;
+    }
+    
+
+}
+@media screen and (min-width: 601px) and (max-width: 767px){
+    .sign_heading{
+        left:-540px;
+    }
+    p{
+        width:400px;
+        margin-left:100px;
+    }
+    .sub-reg{
+        height:550px;
+        width:300px;
+        margin-left:200px;
+        padding:-50px;
+    }
+    .reg-field{
+        font-size: 12px;
+        border-radius: 5px;
+        border: 1.5px solid #787777;
+        height: 35px;
+        width: 150px;
+        margin: 10px -10px 10px 70px;
+        background-color: #f8f9f9;
+        font-family: 'Playfair Display', serif;
+        box-shadow: 2px 2px 6px 0 #4d001f;
+    }
+    .reg-img{
+        height: 70px;
+        margin-left:120px;
+    }
+    .btn{
+        font-size: 13px;
+        height:30px;
+        width: 140px;
+        margin:10px 70px;
+
+    }
+
+
+
+}
