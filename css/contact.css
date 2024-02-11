@@ -185,12 +185,13 @@ h3{
     .container{
         width: 50%;
         flex-direction: column;
-        padding-left: -1300px;
+        padding-right: -13px;
         margin-right: 112px;
     }
     .contactinfo-me {
        width:140% ;
     }
+    
     .container .contactform {
         width: 200%;
         min-height: 250px;
@@ -206,10 +207,10 @@ h3{
         width: 80%;
     }
     .Contact .content h2{
-        margin-top: 15px;
+        margin-top: -20px;
     }
     .btn{
-    margin-left: 45px;
+    margin-left: 60px;
     margin-top: 45px;
      
     }
@@ -228,9 +229,8 @@ h3{
         min-height: 400px;
         margin-bottom: 20px;
         margin-left: 45px;
-      
-       
-    }
+      }
+    
     .container textarea{
         width: 67px;
         margin-left: -60px;
@@ -242,15 +242,16 @@ h3{
         width: 46%;
    }
     
-    .Contact .content h2{
-            padding-top: -1200px;
-        }
-   
+
+    .btn{
+            margin-right: 78px;
+          
+    }
   .container .contactform .inputbox{
        width: 80%;
    }
    .Contact .content h2 p{
-       margin-top: -200px;
+       margin-bottom: -200px;
    }
 
 }
