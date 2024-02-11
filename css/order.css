@@ -1,26 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.registration{
+    margin-left: -100px;
+}
 .sign_heading{
     font-family: 'EB Garamond', serif;
     font-family:  'Pacifico', 'cursive';
     font-family: 'Protest Riot', sans-serif;
     position: relative;
-    top:-20px; left:-190px;
+    top:-20px; 
+    text-align: left;
 }
+
 .sub-reg{
     background-color: #F8EBCF;
     border:2px solid #3e2922;
-    
+    margin-left: auto;
 }
 .slowgan1{
     color:#3E2922;
     font-weight: 600;
 }
-p{
+.pg{
     font-family: 'Lora', serif;
-
+    width: 1500px;
+    margin-left: 110px;
 
 }
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&family=Protest+Riot&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 
 
 .sign_heading{
@@ -93,9 +101,9 @@ p{
         margin-left:300px;
         box-shadow: 2px 2px 7px 1px #4d001f;
     }
-    p{
+    .pg{
         width:600px;
-        margin-left:190px;
+      
     }
     
 }
@@ -109,9 +117,9 @@ p{
         margin-left:200px;
         padding:-50px;
     }
-    p{
+    .pg{
         width:500px;
-        margin-left:100px;
+    
     }
     .reg-field{
         font-size: 14px;
@@ -142,9 +150,9 @@ p{
     .sign_heading{
         left:-540px;
     }
-    p{
+    .pg{
         width:400px;
-        margin-left:100px;
+   
     }
     .sub-reg{
         height:550px;
