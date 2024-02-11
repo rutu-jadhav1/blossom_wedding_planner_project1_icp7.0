@@ -196,7 +196,7 @@ h3{
         width: 200%;
         min-height: 250px;
         margin-top: 15px;
-        margin-left:67%;
+        margin-left:65%;
        
         
     }
@@ -210,8 +210,8 @@ h3{
         margin-top: -20px;
     }
     .btn{
-    margin-left: 60px;
-    margin-top: 45px;
+    margin-left:56px;
+  
      
     }
 }
@@ -228,7 +228,7 @@ h3{
         width: 200%;
         min-height: 400px;
         margin-bottom: 20px;
-        margin-left: 45px;
+        margin-left:130px;
       }
     
     .container textarea{
@@ -241,7 +241,9 @@ h3{
     .container .contactform .inputbox textarea{
         width: 46%;
    }
-    
+   .Contact .content h2{
+    margin-top: -10px;
+   }
 
     .btn{
             margin-right: 78px;
