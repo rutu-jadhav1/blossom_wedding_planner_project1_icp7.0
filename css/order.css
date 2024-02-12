@@ -4,20 +4,6 @@
 .registration{
     margin-left: -100px;
 }
-.sign_heading{
-    font-family: 'EB Garamond', serif;
-    font-family:  'Pacifico', 'cursive';
-    font-family: 'Protest Riot', sans-serif;
-    position: relative;
-    top:-20px; 
-    text-align: left;
-}
-
-.sub-reg{
-    background-color: #F8EBCF;
-    border:2px solid #3e2922;
-    margin-left: auto;
-}
 .slowgan1{
     color:#3E2922;
     font-weight: 600;
@@ -26,11 +12,7 @@
     font-family: 'Lora', serif;
     width: 1500px;
     margin-left: 110px;
-
 }
-
-
-
 .sign_heading{
     font-family: 'Protest Riot', sans-serif;
     color:#3E2922;
@@ -90,35 +72,40 @@
 @media screen and (min-width: 992px) and (max-width: 1300px)
 {
     .sign_heading{
-        left:-300px;
+        margin-left:454px;
     
     }
     .sub-reg{
         height: 700px;
-        width: 350px;
+        width: 430px;
         background-color: #ea9159;
         border-radius: 50px 0px 50px 0px;
-        margin-left:300px;
+        margin-left:350px;
         box-shadow: 2px 2px 7px 1px #4d001f;
     }
     .pg{
-        width:600px;
+        width:580px;
+        margin-left:270px;
       
+    }
+    .reg-field{
+        margin-left:90px;
     }
     
 }
 @media screen and (min-width: 768px) and (max-width: 991px){
     .sign_heading{
-        left:-440px;
+       margin-left:350px;
     }
     .sub-reg{
         height:640px;
         width:300px;
-        margin-left:200px;
+        margin-left:350px;
         padding:-50px;
     }
     .pg{
-        width:500px;
+        width:600px;
+        margin-left:200px;
     
     }
     .reg-field{
@@ -148,16 +135,18 @@
 }
 @media screen and (min-width: 601px) and (max-width: 767px){
     .sign_heading{
-        left:-540px;
+        margin-left:280px;
+        font-size:35px;
     }
     .pg{
-        width:400px;
+        width:600px;
+        margin-left:120px;
    
     }
     .sub-reg{
-        height:550px;
+        height:500px;
         width:300px;
-        margin-left:200px;
+        margin-left:250px;
         padding:-50px;
     }
     .reg-field{
@@ -166,14 +155,14 @@
         border: 1.5px solid #787777;
         height: 35px;
         width: 150px;
-        margin: 10px -10px 10px 70px;
+        margin: 7px -10px 7px 70px;
         background-color: #f8f9f9;
         font-family: 'Playfair Display', serif;
         box-shadow: 2px 2px 6px 0 #4d001f;
     }
     .reg-img{
         height: 70px;
-        margin-left:120px;
+        margin: 10px 120px;
     }
     .btn{
         font-size: 13px;
