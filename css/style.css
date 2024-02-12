@@ -53,7 +53,7 @@ body{
     text-align: center;
     font-size: 45px;
     position: relative;
-    top: 18px;
+    top: 45px;
     
 }
 p{
@@ -61,6 +61,7 @@ p{
     color:#3E2922;
     text-align: center;
     font-size:20px;
+ 
 }
 .main .slowgan{
     color:#3E2922;
