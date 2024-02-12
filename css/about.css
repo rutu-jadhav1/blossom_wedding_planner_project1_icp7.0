@@ -79,9 +79,9 @@ p{
     background-position: center;
     background-size: cover;
     border-radius: 15px;
-    flex: 0 15rem;
+    flex: 1 15rem;
     padding: 1.2rem;
-    margin: 0.5rem;
+    margin: 2.5rem;
     display: inline-block;
     text-align: center;
 }
@@ -114,18 +114,13 @@ p{
     color: #000;
 }
 
-@media (max-width:767px) {
+
+
+@media screen and (min-width:451px) and (max-width:767px) {
     .service {
         margin-bottom: 30rem;
     }
 }
-
-
-
-
-
-
-
 
 .rv{
     display: flex;
@@ -157,3 +152,4 @@ p{
     margin-top: -20px;
     box-shadow: 0 0 6px 3px #3E2922;
 }
+
